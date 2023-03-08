@@ -1,7 +1,14 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./components/Home";
+
+import Home from "./components/Pages/Home";
+import Navbar from "./components/Headers&footer/Navbar";
+import About from "./components/Pages/About";
+import Tech from "./components/Pages/Tech";
+import News from "./components/Pages/News";
+import Contact from "./components/Pages/Contact";
+import Vehicles from "./components/Pages/Vehicles";
+import Footer from "./components/Headers&footer/Footer";
+
 
 
 const Layout = () => {
@@ -22,6 +29,26 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/tech",
+        element: <Tech />,
+      },
+      {
+        path: "/news",
+        element: <News />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/vehicles",
+        element: <Vehicles />,
       },
     ],
   },
