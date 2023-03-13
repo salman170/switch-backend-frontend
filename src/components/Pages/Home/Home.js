@@ -2,7 +2,10 @@ import React, { useEffect } from 'react';
 import vBUSES from '../../../assets/video/vBUSES.mp4';
 import switchInfographic from '../../../assets/sites/default/files/Switch-Infographic_updated3860.png?v=1';
 import switchInfographicupdated from '../../../assets/sites/default/files/Switch-Infographic_updated-mob3860.jpg?v=1';
-import bannerTech from '../../../assets//sites/default/files/banner-tech.jpg';
+import bannerTech from '../../../assets/sites/default/files/banner-tech.jpg';
+import switch_e1 from '../../../assets/sites/default/files/2022-06/e1-vehicle-img.jpg';
+import switch_eiv22 from '../../../assets/sites/default/files/2022-08/EIV-22-thumb-img.jpg';
+import switch_eiv12 from '../../../assets/sites/default/files/2022-06/vehicle_ev12_0.jpg';
 
 import Slider from './Slider';
 import AOS from 'aos';
@@ -116,7 +119,7 @@ const Home = () => {
               </div>
               <div className='prod-pic'>
                 <img
-                  src='sites/default/files/2022-06/e1-vehicle-img.jpg'
+                  src={switch_e1}
                   alt='SWITCH e1'
                   className='img-fluid'
                 />
@@ -146,7 +149,7 @@ const Home = () => {
               </div>
               <div className='prod-pic'>
                 <img
-                  src='sites/default/files/2022-06/vehicle_ev12_0.jpg'
+                  src={switch_eiv12}
                   alt='SWITCH EiV 12'
                   className='img-fluid'
                 />
@@ -176,7 +179,7 @@ const Home = () => {
               </div>
               <div className='prod-pic'>
                 <img
-                  src='sites/default/files/2022-08/EIV-22-thumb-img.jpg'
+                  src={switch_eiv22}
                   alt='SWITCH EiV 22'
                   className='img-fluid'
                 />
@@ -198,7 +201,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class='flex flex-col md:flex-row bg-emerald-500 mb-5 '>
+      <section class='flex flex-col md:flex-row bg-emerald-500 mb-1 '>
         <div
           class='w-full md:w-1/2 h-[500px] bg-cover bg-no-repeat'
           style={{ backgroundImage: `url(${bannerTech})` }}
@@ -307,7 +310,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <section className='mb-5'>
+      <section className='mb-1'>
         {width > 425 ? (
           <img src={switchInfographic} className='' alt='Switch infographic' />
         ) : (
@@ -376,7 +379,7 @@ const Home = () => {
           </a> */}
 
           <Link
-            to='/contact'
+            to='/about'
             class='relative px-8 py-2 text-xl lg:text-2xl overflow-hidden font-medium text-white border-[3px] border-gray-100 shadow-inner group'
             data-editor-processed='true'
             data-aos='fade-up'
@@ -532,189 +535,383 @@ const Home = () => {
           </div>
         </section>*/}
 
-        <section
-          className="intro-newsletter generic-padding d-flex"
-          id=""
-          data-link=""
-        >
-          <div className="container-fluid">
-            <div className="row">
+<section
+        className='intro-newsletter generic-padding flex'
+        id=''
+        data-link=''
+      >
+        <div className='container  max-w-full mx-auto sm:px-4'>
+          <div className='flex flex-wrap justify-around '>
+            <div className='w-4/5 md:w-2/5  xl:w-2/5 pr-4 pl-4 mb-4 mt-5 offset-1 xl:mx-1/5 '>
               <div
-                className="col-10 col-md-5 col-xl-5 mb-4 mt-5 offset-1 offset-xl-2"
+                className='text-4xl lg:text-5xl pt-16 pl-12 pb-12'
+                data-aos='fade-up'
               >
-                <div
-                  className="section-heading section-heading-sm mb-5"
-                  data-aos="fade-up"
-                >
-                  <h2 className="title" data-editor-processed="true">
-                    We're on a journey.<br />
-                    Will you join us?
-                  </h2>
-                </div>
-                <h4
-                  className="web-font-2"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-editor-processed="true"
-                >
-                  Sign up and be the first to hear about our EV buses and vans.
-                </h4>
+                <h2 className='title' data-editor-processed='true'>
+                  We're on a journey.
+                  <br />
+                  Will you join us?
+                </h2>
               </div>
+              <h4
+                className='  pl-12 lg:text-3xl text-2xl  '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-editor-processed='true'
+              >
+                Contact us and be the first to hear about our EV buses and vans.
+              </h4>
+             
+            </div>
 
-              <div className="col-md-6 col-xl-4 offset-xl-1 pl-xl-0">
-                <div
-                  className="form-wrapper"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
+            <div className='md:w-1/2 pr-4 pl-4 xl:w-1/3 xl:mx-1/6 xl:pl-0'>
+              <div
+                className='form-wrapper'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                <h3
+                  className='my-3 text-blue-600 text-3xl hidden md:block'
+                  data-editor-processed='true'
                 >
-                  <h3
-                    className="mb-3 text-blue d-none d-md-block"
-                    data-editor-processed="true"
-                  >
-                    Sign up
-                  </h3>
-                  <div className="type-of-block">
-                    <div className="block-inner">
-                      <form id="signupForm" className="form-primary">
-                        <div className="form-group">
-                          <label className="sr-only" for="emailAddress"
-                            >Email address Ashwani</label
-                          >
-                          <input
-                            type="email"
-                            className="form-control"
-                            name="newsletteryouremail"
-                            id="emailAddress"
-                            placeholder="Enter your email address here"
-                          />
-                          <div className="error-msg" id="errEmailAddress"></div>
-                        </div>
-                        <div className="form-group">
-                          <label className="sr-only" for="fullName"
-                            >Full name</label
-                          >
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="fullName"
-                            maxlength="150"
-                            name="newsletteryourname"
-                            placeholder="Full name"
-                          />
-                          <div className="error-msg" id="errFullName"></div>
-                        </div>
-                        <div className="form-group">
-                          <label className="sr-only" for="jobtitle"
-                            >Job Title</label
-                          >
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="jobtitle"
-                            maxlength="150"
-                            name="jobtitle"
-                            placeholder="Job title"
-                          />
-                          <div className="error-msg" id="errJobTitle"></div>
-                        </div>
-                        <div className="form-group">
-                          <label className="sr-only" for="company">Company</label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="company"
-                            maxlength="150"
-                            name="newslettercompanyname"
-                            placeholder="Company"
-                          />
-                          <input
-                            type="hidden"
-                            name="leadsource"
-                            value="en.html"
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label className="sr-only" for="interest">Interest</label>
-                          <select
-                            className="form-control custom-select"
-                            id="interest"
-                            name="newsletterinterest"
-                          >
-                            <option value>Interest</option>
-                            <option value="Aftersales / Parts">
-                              Aftersales / Parts
-                            </option>
-                            <option value="Customer - private">
-                              Customer - private
-                            </option>
-                            <option value="Customer - public">
-                              Customer - public
-                            </option>
-                            <option value="Enthusiast">Enthusiast</option>
-                            <option value="Investor">Investor</option>
-                            <option value="Local authority">
-                              Local authority
-                            </option>
-                            <option value="Media">Media</option>
-                            <option value="Policy maker">Policy maker</option>
-                            <option value="Recruitment">Recruitment</option>
-                            <option value="Supplier">Supplier</option>
-                            <option value="Other">Other</option>
-                          </select>
-                          <div className="error-msg" id="errInterest"></div>
-                        </div>
-                        <div className="form-group">
-                          <div className="d-flex justify-content-between">
-                            <div className="form-check">
-                              <input
-                                className="custom-control-input"
-                                name="subscribe_newsletter"
-                                value="1"
-                                type="checkbox"
-                                id="subscribeCheck"
-                              />
-                              <label
-                                className="custom-control-label"
-                                for="subscribeCheck"
-                                >Subscribe to news and updates from
-                                SWITCH</label
-                              >
-                            </div>
-                            <button
-                              type="button"
-                              id="signupSubmit"
-                              className="btn btn-circle"
+                  Contact Us
+                </h3>
+                <div className=''>
+                  <div className=''>
+                    <form id='signupForm' className=''>
+                      <div className='mb-4'>
+                        <label className='sr-only' for='emailAddress'>
+                          Email address Ashwani
+                        </label>
+                        <input
+                          type='email'
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          name='newsletteryouremail'
+                          id='emailAddress'
+                          placeholder='Enter your email address here'
+                        />
+                        <div className='error-msg' id='errEmailAddress'></div>
+                      </div>
+                      <div className='mb-4'>
+                        <label className='sr-only' for='fullName'>
+                          Full name
+                        </label>
+                        <input
+                          type='text'
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          id='fullName'
+                          maxlength='150'
+                          name='newsletteryourname'
+                          placeholder='Full name'
+                        />
+                        <div className='error-msg' id='errFullName'></div>
+                      </div>
+                      <div className='mb-4'>
+                        <label className='sr-only' for='jobtitle'>
+                          Job Title
+                        </label>
+                        <input
+                          type='text'
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          id='jobtitle'
+                          maxlength='150'
+                          name='jobtitle'
+                          placeholder='Job title'
+                        />
+                        <div className='error-msg' id='errJobTitle'></div>
+                      </div>
+                      <div className='mb-4'>
+                        <label className='sr-only' for='company'>
+                          Company
+                        </label>
+                        <input
+                          type='text'
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          id='company'
+                          maxlength='150'
+                          name='newslettercompanyname'
+                          placeholder='Company'
+                        />
+                        <input
+                          type='hidden'
+                          name='leadsource'
+                          value='en.html'
+                        />
+                      </div>
+                      <div className='mb-4'>
+                        <label className='sr-only' for='interest'>
+                          Interest
+                        </label>
+                        <select
+                           className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          id='interest'
+                          name='newsletterinterest'
+                        >
+                          <option value>Interest</option>
+                          <option value='Aftersales / Parts'>
+                            Aftersales / Parts
+                          </option>
+                          <option value='Customer - private'>
+                            Customer - private
+                          </option>
+                          <option value='Customer - public'>
+                            Customer - public
+                          </option>
+                          <option value='Enthusiast'>Enthusiast</option>
+                          <option value='Investor'>Investor</option>
+                          <option value='Local authority'>
+                            Local authority
+                          </option>
+                          <option value='Media'>Media</option>
+                          <option value='Policy maker'>Policy maker</option>
+                          <option value='Recruitment'>Recruitment</option>
+                          <option value='Supplier'>Supplier</option>
+                          <option value='Other'>Other</option>
+                        </select>
+                        <div className='error-msg' id='errInterest'></div>
+                      </div>
+                      <div className='mb-4'>
+                        <div className='flex justify-between'>
+                          <div className='relative block mb-2 '>
+                           
+                            <input type="checkbox" name='subscribe_newsletter' id='subscribeCheck' className='mr-2 w-6 h-6'/>
+                            <label
+                              className=' text-lg'
+                              htmlFor='subscribeCheck'
                             >
-                              &#10004;
-                            </button>
+                              Subscribe to news and updates from SWITCH
+                            </label>
                           </div>
-                          <div className="error-msg" id="errSubscribeCheck"></div>
+                          <button
+                            type='submit'
+                            id='signupSubmit'
+                            className='align-middle text-center  border-2 border-indigo-500  whitespace-no-wrap  py-1 px-1 font-medium no-underline rounded-full hover:shadow-lg hover:shadow-indigo-500 '
+                          >                           Submit
+                          </button>
                         </div>
-                        <div className="display-def-9">
-                          <p className="mb-2">
-                            SWITCH Mobility is committed to protecting and
-                            respecting your privacy.
-                            <br />
-                            We only use your personal information to provide the
-                            information you requested from us.
-                          </p>
-                          <p className="mb-0">
-                            For more information on how to unsubscribe, our
-                            privacy practices, and how we are committed to
-                            protecting and respecting your privacy, please
-                            review our
-                            <a className="link-grey" href="en/privacy-policy.html"
-                              >Privacy Policy</a                            >.
-                          </p>
-                        </div>
-                      </form>
-                    </div>
+                        <div className='error-msg' id='errSubscribeCheck'></div>
+                      </div>
+                      <div className='display-def-9'>
+                        <p className='mb-2 text-sm'>
+                          SWITCH Mobility is committed to protecting and
+                          respecting your privacy.
+                          <br />
+                          We only use your personal information to provide the
+                          information you requested from us.
+                        </p>
+                        <p className='text-sm mb-2'>
+                          For more information on how to unsubscribe, our
+                          privacy practices, and how we are committed to
+                          protecting and respecting your privacy, please review
+                          our
+                          <a
+                            className='link-grey'
+                            href='en/privacy-policy.html'
+                          > Privacy Policy
+                          </a>
+                          .
+                        </p>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>  
+        </div>
+      </section>
+
+       {/* <section
+        className='intro-newsletter generic-padding d-flex'
+        id=''
+        data-link=''
+      >
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-10 col-md-5 col-xl-5 mb-4 mt-5 offset-1 offset-xl-2'>
+              <div
+                className='section-heading section-heading-sm mb-5'
+                data-aos='fade-up'
+              >
+                <h2 className='title' data-editor-processed='true'>
+                  We're on a journey.
+                  <br />
+                  Will you join us?
+                </h2>
+              </div>
+              <h4
+                className='web-font-2'
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-editor-processed='true'
+              >
+                Sign up and be the first to hear about our EV buses and vans.
+              </h4>
+            </div>
+
+            <div className='col-md-6 col-xl-4 offset-xl-1 pl-xl-0'>
+              <div
+                className='form-wrapper'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                <h3
+                  className='mb-3 text-blue d-none d-md-block'
+                  data-editor-processed='true'
+                >
+                  Sign up
+                </h3>
+                <div className='type-of-block'>
+                  <div className='block-inner'>
+                    <form id='signupForm' className='form-primary'>
+                      <div className='form-group'>
+                        <label className='sr-only' for='emailAddress'>
+                          Email address Ashwani
+                        </label>
+                        <input
+                          type='email'
+                          className='form-control'
+                          name='newsletteryouremail'
+                          id='emailAddress'
+                          placeholder='Enter your email address here'
+                        />
+                        <div className='error-msg' id='errEmailAddress'></div>
+                      </div>
+                      <div className='form-group'>
+                        <label className='sr-only' for='fullName'>
+                          Full name
+                        </label>
+                        <input
+                          type='text'
+                          className='form-control'
+                          id='fullName'
+                          maxlength='150'
+                          name='newsletteryourname'
+                          placeholder='Full name'
+                        />
+                        <div className='error-msg' id='errFullName'></div>
+                      </div>
+                      <div className='form-group'>
+                        <label className='sr-only' for='jobtitle'>
+                          Job Title
+                        </label>
+                        <input
+                          type='text'
+                          className='form-control'
+                          id='jobtitle'
+                          maxlength='150'
+                          name='jobtitle'
+                          placeholder='Job title'
+                        />
+                        <div className='error-msg' id='errJobTitle'></div>
+                      </div>
+                      <div className='form-group'>
+                        <label className='sr-only' for='company'>
+                          Company
+                        </label>
+                        <input
+                          type='text'
+                          className='form-control'
+                          id='company'
+                          maxlength='150'
+                          name='newslettercompanyname'
+                          placeholder='Company'
+                        />
+                        <input
+                          type='hidden'
+                          name='leadsource'
+                          value='en.html'
+                        />
+                      </div>
+                      <div className='form-group'>
+                        <label className='sr-only' for='interest'>
+                          Interest
+                        </label>
+                        <select
+                          className='form-control custom-select'
+                          id='interest'
+                          name='newsletterinterest'
+                        >
+                          <option value>Interest</option>
+                          <option value='Aftersales / Parts'>
+                            Aftersales / Parts
+                          </option>
+                          <option value='Customer - private'>
+                            Customer - private
+                          </option>
+                          <option value='Customer - public'>
+                            Customer - public
+                          </option>
+                          <option value='Enthusiast'>Enthusiast</option>
+                          <option value='Investor'>Investor</option>
+                          <option value='Local authority'>
+                            Local authority
+                          </option>
+                          <option value='Media'>Media</option>
+                          <option value='Policy maker'>Policy maker</option>
+                          <option value='Recruitment'>Recruitment</option>
+                          <option value='Supplier'>Supplier</option>
+                          <option value='Other'>Other</option>
+                        </select>
+                        <div className='error-msg' id='errInterest'></div>
+                      </div>
+                      <div className='form-group'>
+                        <div className='d-flex justify-content-between'>
+                          <div className='form-check'>
+                            <input
+                              className='custom-control-input'
+                              name='subscribe_newsletter'
+                              value='1'
+                              type='checkbox'
+                              id='subscribeCheck'
+                            />
+                            <label
+                              className='custom-control-label'
+                              for='subscribeCheck'
+                            >
+                              Subscribe to news and updates from SWITCH
+                            </label>
+                          </div>
+                          <button
+                            type='button'
+                            id='signupSubmit'
+                            className='btn btn-circle'
+                          >
+                            &#10004;
+                          </button>
+                        </div>
+                        <div className='error-msg' id='errSubscribeCheck'></div>
+                      </div>
+                      <div className='display-def-9'>
+                        <p className='mb-2'>
+                          SWITCH Mobility is committed to protecting and
+                          respecting your privacy.
+                          <br />
+                          We only use your personal information to provide the
+                          information you requested from us.
+                        </p>
+                        <p className='mb-0'>
+                          For more information on how to unsubscribe, our
+                          privacy practices, and how we are committed to
+                          protecting and respecting your privacy, please review
+                          our
+                          <a
+                            className='link-grey'
+                            href='en/privacy-policy.html'
+                          >
+                            Privacy Policy
+                          </a>
+                          .
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  */}
     </div>
   );
 };
