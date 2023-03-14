@@ -112,7 +112,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='row gutter-100 my-4 grid md:grid-cols-3 gap-6 mx-2 sm:grid-cols-2'>
+          <div className='row gutter-100 my-4 grid md:grid-cols-3 gap-6 mx-4 md:mx-12 sm:grid-cols-2'>
             <div
               className='mb-5'
               data-aos='fade-in'
