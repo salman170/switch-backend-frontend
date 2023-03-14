@@ -6,6 +6,7 @@ import bannerTech from '../../../assets/sites/default/files/banner-tech.jpg';
 import switch_e1 from '../../../assets/sites/default/files/2022-06/e1-vehicle-img.jpg';
 import switch_eiv22 from '../../../assets/sites/default/files/2022-08/EIV-22-thumb-img.jpg';
 import switch_eiv12 from '../../../assets/sites/default/files/2022-06/vehicle_ev12_0.jpg';
+import moreInfo from '../../../assets/themes/custom/switchmobility/resources/images/chevron-right.svg';
 
 import Slider from './Slider';
 import AOS from 'aos';
@@ -23,10 +24,10 @@ const Home = () => {
       <section>
         <Slider />
       </section>
-      <section className='p-xl bg-stone-200'>
+      <section className=' bg-stone-100'>
         <div className='container'>
           <div
-            className='text-4xl lg:text-6xl pt-16 pl-12 pb-12'
+            className='text-2xl md:text-4xl lg:text-6xl pt-8 md:mx-12 md:pt-16 pl-8  pb-12'
             data-aos='fade-up'
           >
             <h2 className='title' data-editor-processed='true'>
@@ -35,11 +36,13 @@ const Home = () => {
               Cleaner, connected cities
             </h2>
           </div>
-          <div className='divide-x'></div>
+
+          <div className='  w-full bg-slate-400 '></div>
+
           <div className='flex justify-between flex-col md:flex-row '>
-            <div className='mx-12 mb-24'>
+            <div className='px-8 md:mx-12 md:mb-24 mb-12'>
               <p
-                className='text-xl'
+                className='md:text-xl'
                 data-aos='fade-up'
                 data-aos-delay='100'
                 data-editor-processed='true'
@@ -49,9 +52,9 @@ const Home = () => {
                 built with your whole community in mind.
               </p>
             </div>
-            <div className='mx-12 '>
+            <div className='px-8 md:px-12 md:mb-24 mb-8 '>
               <h3
-                className=' text-blue-600 text-xl'
+                className=' text-blue-600 text-xl '
                 data-aos='fade-up'
                 data-aos-delay='200'
                 data-editor-processed='true'
@@ -76,10 +79,10 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </section>
-      <section className='generic-padding'>
-        <div className='container-fluid'>
-          <div className='flex'>
-            <div className='col-md-5'>
+     <section className='generic-padding'>
+        <div >
+          <div >
+            <div >
               <div
                 className='text-3xl lg:text-5xl pt-16 pl-12 pb-8'
                 data-aos='fade-up'
@@ -90,49 +93,50 @@ const Home = () => {
                 data-aos='fade-up'
                 data-aos-delay='100'
                 data-editor-processed='true'
+                className='pl-12 lg:text-lg'
               >
                 In 2014, we introduced the first British built, pure electric
                 buses to London’s roads. Since then, we’ve clocked over 30
                 million electric miles.
               </p>
             </div>
-            <div className='pt-16 pl-12 pb-8'>
-              <h3
-                className='text-blue-600 text-xl'
+            <div className='pt-16 pl-12 pb-8 '>
+              <div
+                className='text-blue-600 text-2xl '
                 data-aos='fade-up'
                 data-aos-delay='200'
                 data-editor-processed='true'
               >
                 Explore our current range
-              </h3>
+              </div>
             </div>
           </div>
 
-          <div className='row gutter-100 mb-3'>
+          <div className='row gutter-100 my-4 grid md:grid-cols-3 gap-6 mx-2 sm:grid-cols-2'>
             <div
-              className='col-md-6 col-lg-4 mb-5'
+              className='mb-5'
               data-aos='fade-in'
               data-aos-delay='300'
             >
-              <div className='prod-title'>
+              <div className='text-xl lg:text-3xl my-5 font-semibold'>
                 <h3 className='title'>SWITCH e1</h3>
               </div>
-              <div className='prod-pic'>
+              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300'>
                 <img
                   src={switch_e1}
                   alt='SWITCH e1'
                   className='img-fluid'
                 />
               </div>
-              <div className='prod-btm'>
+              <div className='bg-indigo-500 mt-1'>
                 <a
-                  className='d-flex justify-content-between'
+                  className='flex justify-between px-2 py-4 text-white'
                   href='en/switch-e1.html'
                 >
                   <span>MORE INFORMATION</span>
                   <img
-                    src='themes/custom/switchmobility/resources/images/chevron-right.svg'
-                    width='20'
+                    src={moreInfo}
+                    width='28'
                     alt='MORE INFORMATION'
                   />
                 </a>
@@ -140,29 +144,29 @@ const Home = () => {
             </div>
 
             <div
-              className='col-md-6 col-lg-4 mb-5'
+              className='mb-5'
               data-aos='fade-in'
               data-aos-delay='400'
             >
-              <div className='prod-title'>
+              <div className='text-xl lg:text-3xl my-5 font-semibold'>
                 <h3 className='title'>SWITCH EiV 12</h3>
               </div>
-              <div className='prod-pic'>
+              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300'>
                 <img
                   src={switch_eiv12}
                   alt='SWITCH EiV 12'
                   className='img-fluid'
                 />
               </div>
-              <div className='prod-btm'>
+              <div className='bg-indigo-500 mt-1'>
                 <a
-                  className='d-flex justify-content-between'
+                  className='flex justify-between px-2 py-4 text-white'
                   href='en/switch-eiv12.html'
                 >
                   <span>MORE INFORMATION</span>
                   <img
-                    src='themes/custom/switchmobility/resources/images/chevron-right.svg'
-                    width='20'
+                    src={moreInfo}
+                    width='28'
                     alt='MORE INFORMATION'
                   />
                 </a>
@@ -170,37 +174,38 @@ const Home = () => {
             </div>
 
             <div
-              className='col-md-6 col-lg-4 mb-5'
+              className='col-md-6 col-lg-4 mb-5 rounded-xl'
               data-aos='fade-in'
               data-aos-delay='500'
             >
-              <div className='prod-title'>
+              <div className='text-xl lg:text-3xl my-5 font-semibold'>
                 <h3 className='title'>SWITCH EiV 22</h3>
               </div>
-              <div className='prod-pic'>
+              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300 '>
                 <img
                   src={switch_eiv22}
                   alt='SWITCH EiV 22'
                   className='img-fluid'
                 />
               </div>
-              <div className='prod-btm'>
+              <div className='bg-indigo-500 mt-1'>
                 <a
-                  className='d-flex justify-content-between'
+                  className='flex justify-between px-2 py-4 text-white '
                   href='en/switch-eiv22.html'
                 >
                   <span>MORE INFORMATION</span>
                   <img
-                    src='themes/custom/switchmobility/resources/images/chevron-right.svg'
-                    width='20'
+                    src={moreInfo}
+                    width='28'
                     alt='MORE INFORMATION'
                   />
                 </a>
               </div>
+              
             </div>
           </div>
         </div>
-      </section>
+      </section> 
       <section class='flex flex-col md:flex-row bg-emerald-500 mb-1 '>
         <div
           class='w-full md:w-1/2 h-[500px] bg-cover bg-no-repeat'
@@ -214,15 +219,15 @@ const Home = () => {
             >
               <div class='md:w-2/3'>
                 <h2
-                  class='text-white text-3xl md:text-4xl font-bold leading-tight title mt-10'
+                  class='text-white text-3xl md:text-5xl  leading-tight title mt-10  '
                   data-editor-processed='true'
                 >
-                  A connected world
+                  A Connected World
                 </h2>
               </div>
-              <div class='md:w-1/3 text-right'>
+              <div class='md:w-1/3 text-right pt-4 underline underline-offset-4 text-xl text-white decoration-dotted '>
                 <div
-                  class='text-white font-semibold category'
+                  className='text-white font-semibold category'
                   data-editor-processed='true'
                 >
                   TECHNOLOGY
@@ -230,7 +235,7 @@ const Home = () => {
               </div>
             </div>
             <div
-              class='flex flex-col md:flex-row items-end md:items-center'
+              class='flex flex-col md:flex-row md:items-end sm:items-center'
               data-aos='fade-up'
               data-aos-delay='100'
             >
@@ -243,10 +248,10 @@ const Home = () => {
                   in electromobility.
                 </p>
               </div>
-              <div class='md:w-1/2 text-right mt-6 md:mt-0'>
+              <div className='md:w-1/2 pb-10 md:text-end text-center mt-6 md:mt-0'>
                 <Link
                   to='/tech'
-                  class='relative px-8 py-2 text-xl lg:text-2xl overflow-hidden font-medium text-white border-[3px] border-gray-100 shadow-inner group'
+                  className='relative px-8 py-2 text-xl lg:text-2xl overflow-hidden font-medium text-white border-[3px] border-gray-100 shadow-inner group'
                 >
                   <span class='absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-indigo-400 group-hover:w-full ease'></span>
                   <span class='absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-indigo-400 group-hover:w-full ease'></span>
@@ -349,17 +354,17 @@ const Home = () => {
           </a>
         </div>
       </section> */}
-      <section className='py-8 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]'>
+      <section className='py-6 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]'>
         <div className='container mx-auto'>
           <div className='section-heading' data-aos='fade-up'>
             <h2
-              className='text-3xl lg:text-5xl pt-16  pb-6'
+              className='text-3xl lg:text-5xl    pb-6'
               data-editor-processed='true'
             >
               SWITCH Up
             </h2>
             <p
-              className='text-xl lg:text-2xl font-medium pb-6'
+              className='text-xl lg:text-2xl font-medium pb-10  '
               data-aos='fade-up'
               data-aos-delay='100'
               data-editor-processed='true'
@@ -387,9 +392,9 @@ const Home = () => {
           >
             <span class='absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-indigo-400 group-hover:w-full ease'></span>
             <span class='absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-indigo-400 group-hover:w-full ease'></span>
-            <span class='absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-indigo-400 group-hover:h-full ease'></span>
-            <span class='absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-indigo-400 group-hover:h-full ease'></span>
-            <span class='absolute inset-0 w-full h-full duration-300 delay-300 bg-white opacity-0 group-hover:opacity-100'></span>
+            <span class='absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-100 bg-indigo-400 group-hover:h-full ease'></span>
+            <span class='absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-100 bg-indigo-400 group-hover:h-full ease'></span>
+            <span class='absolute inset-0 w-full h-full duration-300 delay-200 bg-white opacity-0 group-hover:opacity-100'></span>
             <span class='relative transition-colors duration-300 delay-200 group-hover:text-indigo-500 ease'>
               OUR STORY
             </span>
@@ -535,16 +540,16 @@ const Home = () => {
           </div>
         </section>*/}
 
-<section
+      <section
         className='intro-newsletter generic-padding flex'
         id=''
         data-link=''
       >
-        <div className='container  max-w-full mx-auto sm:px-4'>
+        <div className='container  max-w-full mx-auto sm:px-2'>
           <div className='flex flex-wrap justify-around '>
-            <div className='w-4/5 md:w-2/5  xl:w-2/5 pr-4 pl-4 mb-4 mt-5 offset-1 xl:mx-1/5 '>
+            <div className='w-4/5 md:w-2/5  xl:w-2/5 pr-2 md:pr-4 md:pl-4 mb-4 mt-8 offset-1 xl:mx-1/5 '>
               <div
-                className='text-4xl lg:text-5xl pt-16 pl-12 pb-12'
+                className='text-3xl lg:text-5xl md:pt-12 pt-4 md:pl-12 pb-12'
                 data-aos='fade-up'
               >
                 <h2 className='title' data-editor-processed='true'>
@@ -554,24 +559,23 @@ const Home = () => {
                 </h2>
               </div>
               <h4
-                className='  pl-12 lg:text-3xl text-2xl  '
+                className='  md:pl-12 lg:text-3xl text-xl '
                 data-aos='fade-up'
                 data-aos-delay='100'
                 data-editor-processed='true'
               >
                 Contact us and be the first to hear about our EV buses and vans.
               </h4>
-             
             </div>
 
-            <div className='md:w-1/2 pr-4 pl-4 xl:w-1/3 xl:mx-1/6 xl:pl-0'>
+            <div className='md:w-1/2 md:px-4 px-5 xl:w-1/3 xl:mx-1/6 xl:pl-0'>
               <div
                 className='form-wrapper'
                 data-aos='fade-up'
                 data-aos-delay='300'
               >
                 <h3
-                  className='my-3 text-blue-600 text-3xl hidden md:block'
+                  className='my-6 text-blue-600 text-3xl hidden md:block'
                   data-editor-processed='true'
                 >
                   Contact Us
@@ -643,7 +647,7 @@ const Home = () => {
                           Interest
                         </label>
                         <select
-                           className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='interest'
                           name='newsletterinterest'
                         >
@@ -673,8 +677,12 @@ const Home = () => {
                       <div className='mb-4'>
                         <div className='flex justify-between'>
                           <div className='relative block mb-2 '>
-                           
-                            <input type="checkbox" name='subscribe_newsletter' id='subscribeCheck' className='mr-2 w-6 h-6'/>
+                            <input
+                              type='checkbox'
+                              name='subscribe_newsletter'
+                              id='subscribeCheck'
+                              className='mr-2 w-6 h-6'
+                            />
                             <label
                               className=' text-lg'
                               htmlFor='subscribeCheck'
@@ -686,7 +694,8 @@ const Home = () => {
                             type='submit'
                             id='signupSubmit'
                             className='align-middle text-center  border-2 border-indigo-500  whitespace-no-wrap  py-1 px-1 font-medium no-underline rounded-full hover:shadow-lg hover:shadow-indigo-500 '
-                          >                           Submit
+                          >
+                            Submit
                           </button>
                         </div>
                         <div className='error-msg' id='errSubscribeCheck'></div>
@@ -699,7 +708,7 @@ const Home = () => {
                           We only use your personal information to provide the
                           information you requested from us.
                         </p>
-                        <p className='text-sm mb-2'>
+                        <p className='text-sm mb-4'>
                           For more information on how to unsubscribe, our
                           privacy practices, and how we are committed to
                           protecting and respecting your privacy, please review
@@ -707,7 +716,9 @@ const Home = () => {
                           <a
                             className='link-grey'
                             href='en/privacy-policy.html'
-                          > Privacy Policy
+                          >
+                            {' '}
+                            Privacy Policy
                           </a>
                           .
                         </p>
@@ -721,7 +732,7 @@ const Home = () => {
         </div>
       </section>
 
-       {/* <section
+      {/* <section
         className='intro-newsletter generic-padding d-flex'
         id=''
         data-link=''
