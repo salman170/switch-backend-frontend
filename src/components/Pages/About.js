@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import videoPlay from '../../assets/themes/custom/switchmobility/resources/images/company-animation-v2.mp4';
 import backImage from '../../assets/sites/default/files/banner-company.jpg';
 import carbonneutralLogo from '../../assets/sites/default/files/carbonneutralLogo.png';
+import patternGreen from "../../assets/themes/custom/switchmobility/resources/images/pattern-green.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -27,7 +28,7 @@ const About = () => {
           </div>
         </div>
       </section> */}
-      <section className='bg-emerald-500 grid md:min-h-[70vh] lg:min-h-[84vh] place-items-center  text-white '>
+      <section className='bg-emerald-500 grid md:min-h-[70vh] lg:min-h-[84vh] place-items-center  text-white ' style={{ backgroundImage: `url(${patternGreen})` }}>
         <div className='section-heading ' data-aos='fade-up'>
           <div
             className='text-2xl md:text-4xl lg:text-6xl   flex justify-center  '

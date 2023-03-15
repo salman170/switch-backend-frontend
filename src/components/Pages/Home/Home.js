@@ -7,6 +7,10 @@ import switch_e1 from '../../../assets/sites/default/files/2022-06/e1-vehicle-im
 import switch_eiv22 from '../../../assets/sites/default/files/2022-08/EIV-22-thumb-img.jpg';
 import switch_eiv12 from '../../../assets/sites/default/files/2022-06/vehicle_ev12_0.jpg';
 import moreInfo from '../../../assets/themes/custom/switchmobility/resources/images/chevron-right.svg';
+import patternGreen from "../../../assets/themes/custom/switchmobility/resources/images/pattern-green.png"
+import blueSvg from "../../../assets/themes/custom/switchmobility/resources/images/pattern-blue.svg"
+import patternPng from "../../../assets/themes/custom/switchmobility/resources/images/pattern.png"
+import patternBoxSvg from "../../../assets/themes/custom/switchmobility/resources/images/pattern-box.svg"
 
 import Slider from './Slider';
 import AOS from 'aos';
@@ -25,9 +29,9 @@ const Home = () => {
         <Slider />
       </section>
       <section className=' bg-stone-100'>
-        <div className='container'>
+        <div className='container lg:mx-12'>
           <div
-            className='text-2xl md:text-4xl lg:text-6xl pt-8 md:mx-12 md:pt-16 pl-8  pb-12'
+            className='text-2xl md:text-4xl lg:text-6xl pt-8 md:mx-12 md:pt-16 pl-8  pb-6'
             data-aos='fade-up'
           >
             <h2 className='title' data-editor-processed='true'>
@@ -37,7 +41,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className='  w-full bg-slate-400 '></div>
+          <div className=' w-full divide-x-8 h-[5px] bg-no-repeat pb-6' style={{ backgroundImage: `url(${blueSvg})` }}></div>
 
           <div className='flex justify-between flex-col md:flex-row '>
             <div className='px-8 md:mx-12 md:mb-24 mb-12'>
@@ -212,14 +216,14 @@ const Home = () => {
           style={{ backgroundImage: `url(${bannerTech})` }}
         ></div>
         <div class='w-full md:w-1/2 h-[500px] generic-padding flex items-end md:items-start'>
-          <div class='flex flex-col justify-between h-full px-6 md:px-12 py-8'>
+          <div class='flex flex-col justify-between h-full px-6 md:px-12 py-8' style={{ backgroundImage: `url(${patternGreen})` }}>
             <div
               class='flex flex-col md:flex-row items-center md:justify-between mb-8'
               data-aos='fade-up'
             >
               <div class='md:w-2/3'>
                 <h2
-                  class='text-white text-3xl md:text-5xl  leading-tight title mt-10  '
+                  className='text-white text-3xl md:text-5xl  leading-tight title mt-10  '
                   data-editor-processed='true'
                 >
                   A Connected World
@@ -354,8 +358,8 @@ const Home = () => {
           </a>
         </div>
       </section> */}
-      <section className='py-6 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]'>
-        <div className='container mx-auto'>
+      <section className='py-6 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]' style={{ backgroundImage: `url(${patternPng})` }}>
+        <div className='container mx-auto' >
           <div className='section-heading' data-aos='fade-up'>
             <h2
               className='text-3xl lg:text-5xl    pb-6'
@@ -541,9 +545,8 @@ const Home = () => {
         </section>*/}
 
       <section
-        className='intro-newsletter generic-padding flex'
-        id=''
-        data-link=''
+        className='intro-newsletter generic-padding flex bg-no-repeat mt-4'
+        style={{ backgroundImage: `url(${patternBoxSvg})` }}
       >
         <div className='container  max-w-full mx-auto sm:px-2'>
           <div className='flex flex-wrap justify-around '>
