@@ -13,7 +13,7 @@ import smartIneraction from '../../assets/sites/default/files/ico-tech-smart-int
 import upgradableOverTheAir from '../../assets/sites/default/files/ico-tech-upgradable.svg';
 import eMobilityService from '../../assets/sites/default/files/ico-tech-emobility.svg';
 
-
+import blackSvg from "../../assets/themes/custom/switchmobility/resources/images/pattern-black.svg"
 
 const Tech = () => {
   useEffect(() => {
@@ -98,12 +98,17 @@ const Tech = () => {
           </div>
         </div>
       </section>
-      <section className='my-10 mx-5'>
+
+      <section className=' mx-5'>
         <div className='flex flex-col'>
-          <div className='flex md:gap-3 gap-2'>
-            <div className=''>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='100'>
-                <h3 className='title'>
+          <div className='flex md:mx-12 lg:mx-20 md:gap-3 lg:gap-20 gap-2 md:flex-row flex-col mt-10 mb-12 '>
+            <div className='md:w-1/3 w-full '>
+              <div
+                className=''
+                data-aos='fade-up'
+                data-aos-delay='100'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={lightweight}
                     className='icon'
@@ -111,12 +116,12 @@ const Tech = () => {
                     height='40'
                     alt='Icon'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     Lightweight Monocoque Material
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     Strong, ultra-lightweight and made from a high proportion of
                     plant-based composites. The self-coloured body panels
                     eliminate the need for paint process during manufacturing,
@@ -127,9 +132,13 @@ const Tech = () => {
                 </div>
               </div>
             </div>
-            <div className=''>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='200'>
-                <h3 className='title'>
+            <div className='md:w-1/3 w-full '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={BespokeBattery}
                     className='icon'
@@ -137,12 +146,12 @@ const Tech = () => {
                     height='40'
                     alt='Bespoke Battery Technology'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     Bespoke Battery Technology
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     Build your own range. We offer the latest innovations in
                     battery design, built to meet your exact needs. Our modular
                     batteries are integrated into the vehicle structure with a
@@ -152,9 +161,13 @@ const Tech = () => {
                 </div>
               </div>
             </div>
-            <div className=''>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='300'>
-                <h3 className='title'>
+            <div className='md:w-1/3 w-full'>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={AIpoweredDigitalTwin}
                     className='icon'
@@ -162,12 +175,12 @@ const Tech = () => {
                     height='40'
                     alt='AI powered Digital Twin'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     AI powered Digital Twin
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     All SWITCH designed products have a digital twin (a virtual
                     replica of a physical device). These allow us to monitor,
                     diagnose and continually optimise each and every vehicle.
@@ -176,11 +189,16 @@ const Tech = () => {
               </div>
             </div>
           </div>
-          <div className='divider divider-black'></div>
-          <div className='flex md:gap-3 gap-2'>
-            <div className='col-md-4'>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='100'>
-                <h3 className='title'>
+          
+          <div className=' w-full divide-x-8 h-[5px] bg-repeat-x pb-6' style={{ backgroundImage: `url(${blackSvg})` }}></div>
+          <div className='flex md:m-12 lg:mx-20 md:gap-3 lg:gap-20 gap-2 mt-6 md:flex-row flex-col mb-12 '>
+            <div className='md:w-1/3 w-full '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='100'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={icoTechBig}
                     className='icon'
@@ -188,10 +206,10 @@ const Tech = () => {
                     height='40'
                     alt='We use Big Data'
                   />
-                  <span className='text-blue web-font-1'>We use Big Data</span>
+                  <span className='text-indigo-700 text-2xl px-2'>We use Big Data</span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     To get a complete picture of our vehicles, data is vital. We
                     collect and analyse over 2TB of data daily, giving us the
                     insights we need to continuously improve our offering.
@@ -199,9 +217,13 @@ const Tech = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4'>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='200'>
-                <h3 className='title'>
+            <div className='md:w-1/3 w-full '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={controlYourfleet}
                     className='icon'
@@ -209,12 +231,12 @@ const Tech = () => {
                     height='40'
                     alt='Control your fleet with i-Alert'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     Control your fleet with i-Alert
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     Our i-Alert platform allows our customers to access vehicle
                     tracking and performance remotely. Diagnostics, prognostics
                     and battery management tools for world-class fleet
@@ -223,9 +245,13 @@ const Tech = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4'>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='300'>
-                <h3 className='title'>
+            <div className='md:w-1/3 w-full '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={smartIneraction}
                     className='icon'
@@ -233,10 +259,12 @@ const Tech = () => {
                     height='40'
                     alt='Smart interactions'
                   />
-                  <span className='text-blue web-font-1'>Smart interactions</span>
+                  <span className='text-indigo-700 text-2xl px-2'>
+                    Smart interactions
+                  </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     From speed restrictions to automatic emergency braking, our
                     vehicles communicate with the world around them to ensure
                     the highest levels of safety.
@@ -245,11 +273,16 @@ const Tech = () => {
               </div>
             </div>
           </div>
-          <div className='divider divider-black'></div>
-          <div className='flex md:gap-3 gap-2 justify-between'>
-            <div className='col-md-4'>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='100'>
-                <h3 className='title'>
+          
+          <div className=' w-full divide-x-8 h-[5px] bg-repeat-x pb-6' style={{ backgroundImage: `url(${blackSvg})` }}></div>
+          <div className='flex md:m-12 lg:mx-20 md:gap-3 lg:gap-20 gap-2 mt-6 md:flex-row flex-col '>
+            <div className='md:w-1/3 w-full  '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='100'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={upgradableOverTheAir}
                     className='icon'
@@ -257,12 +290,12 @@ const Tech = () => {
                     height='40'
                     alt='Upgradable over the air'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     Upgradable over-the-air
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     We provide over-the-air updates for our software meaning our
                     clients always have the latest optimisations instantly,
                     without the need to visit a service centre.
@@ -270,9 +303,13 @@ const Tech = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4'>
-              <div className='icon-block' data-aos='fade-up' data-aos-delay='200'>
-                <h3 className='title'>
+            <div className='md:w-1/3 w-full mb-10  '>
+              <div
+                className='icon-block'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                <h3 className='flex py-4'>
                   <img
                     src={eMobilityService}
                     className='icon'
@@ -280,12 +317,12 @@ const Tech = () => {
                     height='40'
                     alt='eMobility as a Service'
                   />
-                  <span className='text-blue web-font-1'>
+                  <span className='text-indigo-700 text-2xl px-2'>
                     eMobility as a Service
                   </span>
                 </h3>
                 <div>
-                  <p className='text-sm'>
+                  <p className=' text-md md:text-lg text-justify px-12'>
                     (Or eMaaS for short.) SWITCH provides a pay as you go
                     option. We take care of the vehicles and their maintenance,
                     so that you can focus on the most important things to you –
@@ -294,6 +331,7 @@ const Tech = () => {
                 </div>
               </div>
             </div>
+            <div className='md:w-1/3 w-full '></div>
           </div>
         </div>
       </section>
