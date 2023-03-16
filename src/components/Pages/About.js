@@ -6,7 +6,7 @@ import patternGreen from '../../assets/themes/custom/switchmobility/resources/im
 import patternBlackSvg from '../../assets/themes/custom/switchmobility/resources/images/pattern-black.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import AboutSlider from './AboutSlider';
+// import AboutSlider from './AboutSlider';
 
 const About = () => {
   useEffect(() => {
@@ -18,15 +18,15 @@ const About = () => {
         className='bg-emerald-500 grid min-h-[70vh] lg:min-h-[84vh] place-items-center  text-white '
         style={{ backgroundImage: `url(${patternGreen})` }}
       >
-        <div className='section-heading ' data-aos='fade-up'>
+        <div className=' ' data-aos='fade-up'>
           <div
-            className='text-2xl md:text-4xl lg:text-6xl   flex justify-center text-center  '
+            className='text-3xl md:text-4xl lg:text-6xl   flex justify-center text-center  '
             data-editor-processed='true'
           >
             Hello, we're SABOO eZONE
           </div>
           <div
-            className='md:text-xl lg:text-3xl text-lg text-center pt-4'
+            className='font-mono  md:text-xl lg:text-3xl text-lg text-center pt-4'
             data-editor-processed='true'
           >
             A next-generation electric vehicle company backed by over 50 years
@@ -39,12 +39,12 @@ const About = () => {
           <div className='col-md-6 company-animation'>
             <div className='embed-responsive embed-responsive-16by9'>
               <video
+                autoPlay
                 loop
                 muted
                 playsinline
                 width='100%'
                 preload='metadata'
-                autoPlay
                 className='d-block'
               >
                 <source src={videoPlay} type='video/mp4' />
@@ -167,7 +167,7 @@ const About = () => {
             </div>
           </div>
           <div className=' w-full divide-x-8 h-[5px] bg-no-repeat pb-6 text-center' style={{ backgroundImage: `url(${patternBlackSvg})` }}></div>
-        <AboutSlider />
+        {/* <AboutSlider /> */}
         </div>
       </section>
       
