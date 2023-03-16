@@ -7,10 +7,10 @@ import switch_e1 from '../../../assets/sites/default/files/2022-06/e1-vehicle-im
 import switch_eiv22 from '../../../assets/sites/default/files/2022-08/EIV-22-thumb-img.jpg';
 import switch_eiv12 from '../../../assets/sites/default/files/2022-06/vehicle_ev12_0.jpg';
 import moreInfo from '../../../assets/themes/custom/switchmobility/resources/images/chevron-right.svg';
-import patternGreen from "../../../assets/themes/custom/switchmobility/resources/images/pattern-green.png"
-import blueSvg from "../../../assets/themes/custom/switchmobility/resources/images/pattern-blue.svg"
-import patternPng from "../../../assets/themes/custom/switchmobility/resources/images/pattern.png"
-import patternBoxSvg from "../../../assets/themes/custom/switchmobility/resources/images/pattern-box.svg"
+import patternGreen from '../../../assets/themes/custom/switchmobility/resources/images/pattern-green.png';
+import blueSvg from '../../../assets/themes/custom/switchmobility/resources/images/pattern-blue.svg';
+import patternPng from '../../../assets/themes/custom/switchmobility/resources/images/pattern.png';
+import patternBoxSvg from '../../../assets/themes/custom/switchmobility/resources/images/pattern-box.svg';
 
 import Slider from './Slider';
 import AOS from 'aos';
@@ -22,6 +22,7 @@ const Home = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+  
 
   return (
     <div>
@@ -31,7 +32,7 @@ const Home = () => {
       <section className=' bg-stone-100'>
         <div className='container lg:mx-12'>
           <div
-            className='text-2xl md:text-4xl lg:text-6xl pt-8 md:mx-12 md:pt-16 pl-8  pb-6'
+            className='text-3xl md:text-4xl lg:text-6xl pt-8 md:mx-12 md:pt-16 pl-8  pb-6'
             data-aos='fade-up'
           >
             <h2 className='title' data-editor-processed='true'>
@@ -41,12 +42,15 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className=' w-full divide-x-8 h-[5px] bg-no-repeat pb-6' style={{ backgroundImage: `url(${blueSvg})` }}></div>
+          <div
+            className=' w-full divide-x-8 h-[5px] bg-no-repeat pb-6 my-10'
+            style={{ backgroundImage: `url(${blueSvg})` }}
+          ></div>
 
-          <div className='flex justify-between flex-col md:flex-row '>
-            <div className='px-8 md:mx-12 md:mb-24 mb-12'>
+          <div className='flex flex-col md:flex-row '>
+            <div className='px-8 md:mx-10 md:mb-24 mb-12'>
               <p
-                className='md:text-xl'
+                className='text-lg md:text-xl'
                 data-aos='fade-up'
                 data-aos-delay='100'
                 data-editor-processed='true'
@@ -56,9 +60,9 @@ const Home = () => {
                 built with your whole community in mind.
               </p>
             </div>
-            <div className='px-8 md:px-12 md:mb-24 mb-8 '>
+            <div className=' md:mb-24 px-8 mb-12'>
               <h3
-                className=' text-blue-600 text-xl '
+                className=' text-blue-600 text-2xl md:text-2xl'
                 data-aos='fade-up'
                 data-aos-delay='200'
                 data-editor-processed='true'
@@ -83,16 +87,17 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </section>
-     <section className='generic-padding'>
-        <div >
-          <div >
-            <div >
-              <div
+      <section className='generic-padding'>
+        <div>
+          <div className='flex flex-col md:flex-row '>
+            <div>
+              <h2
                 className='text-3xl lg:text-5xl pt-16 pl-12 pb-8'
                 data-aos='fade-up'
               >
-                <h2 className='title'>Leading the charge</h2>
-              </div>
+                Leading the charge
+              </h2>
+
               <p
                 data-aos='fade-up'
                 data-aos-delay='100'
@@ -117,20 +122,12 @@ const Home = () => {
           </div>
 
           <div className='row gutter-100 my-4 grid md:grid-cols-3 gap-6 mx-4 md:mx-12 sm:grid-cols-2'>
-            <div
-              className='mb-5'
-              data-aos='fade-in'
-              data-aos-delay='300'
-            >
+            <div className='mb-5' data-aos='fade-in' data-aos-delay='300'>
               <div className='text-xl lg:text-3xl my-5 font-semibold'>
                 <h3 className='title'>SWITCH e1</h3>
               </div>
               <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300'>
-                <img
-                  src={switch_e1}
-                  alt='SWITCH e1'
-                  className='img-fluid'
-                />
+                <img src={switch_e1} alt='SWITCH e1' className='img-fluid' />
               </div>
               <div className='bg-indigo-500 mt-1'>
                 <a
@@ -138,20 +135,12 @@ const Home = () => {
                   href='en/switch-e1.html'
                 >
                   <span>MORE INFORMATION</span>
-                  <img
-                    src={moreInfo}
-                    width='28'
-                    alt='MORE INFORMATION'
-                  />
+                  <img src={moreInfo} width='28' alt='MORE INFORMATION' />
                 </a>
               </div>
             </div>
 
-            <div
-              className='mb-5'
-              data-aos='fade-in'
-              data-aos-delay='400'
-            >
+            <div className='mb-5' data-aos='fade-in' data-aos-delay='400'>
               <div className='text-xl lg:text-3xl my-5 font-semibold'>
                 <h3 className='title'>SWITCH EiV 12</h3>
               </div>
@@ -168,11 +157,7 @@ const Home = () => {
                   href='en/switch-eiv12.html'
                 >
                   <span>MORE INFORMATION</span>
-                  <img
-                    src={moreInfo}
-                    width='28'
-                    alt='MORE INFORMATION'
-                  />
+                  <img src={moreInfo} width='28' alt='MORE INFORMATION' />
                 </a>
               </div>
             </div>
@@ -198,25 +183,23 @@ const Home = () => {
                   href='en/switch-eiv22.html'
                 >
                   <span>MORE INFORMATION</span>
-                  <img
-                    src={moreInfo}
-                    width='28'
-                    alt='MORE INFORMATION'
-                  />
+                  <img src={moreInfo} width='28' alt='MORE INFORMATION' />
                 </a>
               </div>
-              
             </div>
           </div>
         </div>
-      </section> 
+      </section>
       <section class='flex flex-col md:flex-row bg-emerald-500 mb-1 '>
         <div
           class='w-full md:w-1/2 h-[500px] bg-cover bg-no-repeat'
           style={{ backgroundImage: `url(${bannerTech})` }}
         ></div>
         <div class='w-full md:w-1/2 h-[500px] generic-padding flex items-end md:items-start'>
-          <div class='flex flex-col justify-between h-full px-6 md:px-12 py-8' style={{ backgroundImage: `url(${patternGreen})` }}>
+          <div
+            class='flex flex-col justify-between h-full px-6 md:px-12 py-8'
+            style={{ backgroundImage: `url(${patternGreen})` }}
+          >
             <div
               class='flex flex-col md:flex-row items-center md:justify-between mb-8'
               data-aos='fade-up'
@@ -358,8 +341,11 @@ const Home = () => {
           </a>
         </div>
       </section> */}
-      <section className='py-6 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]' style={{ backgroundImage: `url(${patternPng})` }}>
-        <div className='container mx-auto' >
+      <section
+        className='py-6 bg-[#505bfe] text-center text-white flex items-center min-h-[74vh]'
+        style={{ backgroundImage: `url(${patternPng})` }}
+      >
+        <div className='container mx-auto'>
           <div className='section-heading' data-aos='fade-up'>
             <h2
               className='text-3xl lg:text-5xl    pb-6'
@@ -592,7 +578,7 @@ const Home = () => {
                         </label>
                         <input
                           type='email'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           name='newsletteryouremail'
                           id='emailAddress'
                           placeholder='Enter your email address here'
@@ -605,7 +591,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='fullName'
                           maxlength='150'
                           name='newsletteryourname'
@@ -619,7 +605,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='jobtitle'
                           maxlength='150'
                           name='jobtitle'
@@ -633,7 +619,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='company'
                           maxlength='150'
                           name='newslettercompanyname'
@@ -650,7 +636,7 @@ const Home = () => {
                           Interest
                         </label>
                         <select
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='interest'
                           name='newsletterinterest'
                         >

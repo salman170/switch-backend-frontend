@@ -10,6 +10,8 @@ const Contact = () => {
   }, []);
   return (
     <div>
+     
+
       <section
         className='intro-newsletter generic-padding flex bg-no-repeat my-4 md:my-8 lg:py-12'
         style={{ backgroundImage: `url(${patternBoxSvg})` }}
@@ -58,7 +60,7 @@ const Contact = () => {
                         </label>
                         <input
                           type='email'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           name='newsletteryouremail'
                           id='emailAddress'
                           placeholder='Enter your email address here'
@@ -71,7 +73,7 @@ const Contact = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='fullName'
                           maxlength='150'
                           name='newsletteryourname'
@@ -85,7 +87,7 @@ const Contact = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='jobtitle'
                           maxlength='150'
                           name='jobtitle'
@@ -99,7 +101,7 @@ const Contact = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='company'
                           maxlength='150'
                           name='newslettercompanyname'
@@ -116,7 +118,7 @@ const Contact = () => {
                           Interest
                         </label>
                         <select
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
                           id='interest'
                           name='newsletterinterest'
                         >
