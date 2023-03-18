@@ -4,8 +4,6 @@ import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logo from '../../assets/logo.png';
 
-
-
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -56,8 +54,55 @@ export default function Navbar() {
               to='/vehicles'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
-              
               Vehicles
+            </Link>
+            <Link
+              to='/e1'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              SWITCH e1
+            </Link>
+            <Link
+              to='/eiv12'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              SWITCH EiV 12
+            </Link>
+            <Link
+              to='/eiv22'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              SWITCH EiV 22
+            </Link>
+            <Link
+              to='/metrodecker'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              Metrodecker
+            </Link>
+            <Link
+              to='/metrocity'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              Metrocity
+            </Link>
+            <Link
+              to='/iev'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              SWITCH IeV Series
+            </Link>
+            <Link
+              to='/eiv7'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              SWITCH EiV 7
+            </Link>
+            <Link
+              to='/solo'
+              className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
+            >
+              Solo
             </Link>
             <Link
               to='/tech'
