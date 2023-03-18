@@ -56,6 +56,7 @@ export default function Navbar() {
               to='/vehicles'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
+              
               Vehicles
             </Link>
             <Link
