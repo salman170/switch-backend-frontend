@@ -164,7 +164,7 @@ const Eiv12 = () => {
         <div class='col-12  bg-[#16b895]'>
           <div class='grid lg:grid-cols-3  ' style={{ overflow: 'hidden' }}>
             <div class='col-span-1 text-white '>
-              <div class=' text-2xl md:text-3xl lg:text-5xl lg:pt-18 text-left p-5 md:p-16'>
+              <div class=' text-2xl font-medium md:text-3xl lg:text-5xl lg:pt-18 text-left p-5 md:p-16'>
                 Next-generation eBus for India
               </div>
 
@@ -208,9 +208,11 @@ const Eiv12 = () => {
         </div>
       </section>
       <section>
-        <div className='container flex md:flex-row flex-col'>
+        <div className=' flex md:flex-row flex-col overflow-hidden mb-10'>
           <div className='md:w-1/2 w-full'>
-            <div className='md:m-8 m-4 px-4 md:px-10  lg:m-16 text-4xl font-medium '>Superior efficiency with long battery life</div>
+            <div className='md:m-8 m-4 px-4 md:px-10  lg:m-16 text-4xl font-medium '>
+              Superior efficiency with long battery life
+            </div>
             <div className='md:m-8 m-4 px-4 md:px-10  lg:m-16 '>
               The SWITCH EiV range of buses have been uniquely configured to
               meet customer requirements of varied applications like intracity,
@@ -221,33 +223,22 @@ const Eiv12 = () => {
               climatic conditions.
             </div>
             <div className='md:m-8 m-4 px-4 md:px-10 lg:m-16 '>
-              <button className='bg-indigo-600 text-white py-2 px-3'>ENQUIRE NOW</button>
+              <button className='bg-indigo-600 text-white py-2 px-3'>
+                ENQUIRE NOW
+              </button>
             </div>
           </div>
           <div
-            class='md:w-1/2 w-full '
+            class='md:w-1/2   '
+
             // style={{ overflow: 'hidden' }}
           >
             <div
-              class='clippedImgBg'
+              className='object-cover w-full h-full  md:h-96 md:w-96 lg:h-80 lg:w-full px-2 md:pt-20 lg:pt-10'
               data-aos='fade-left'
               data-aos-duration='1500'
-              
             >
-              {/* <picture>
-                <source
-                  media='(min-width:991px)'
-                  srcset={perfectEngn}
-                  class='img-fluid'
-                />
-                
-              </picture> */}
-              <img
-                  src={perfectEngn}
-                  height="100px"
-                  class='object-cover w-full my-4 md:my-10'
-                  alt='seat Images'
-                />
+              <img src={perfectEngn} alt='' srcset='' />
             </div>
           </div>
         </div>
@@ -307,16 +298,16 @@ const Eiv12 = () => {
           </div>
         </div>
       </section> */}
-      <section class='generic-padding-sm'>
-        <div class='col-sm-12'>
-          <div class='row'>
-            <div
+     <section class='generic-padding-sm'>
+        <div class='sm:w-full pr-4 pl-4'>
+          <div class='flex  '>
+            <div 
               class='tabLeft clippedLeft'
               data-aos='fade-right'
               data-aos-duration='1500'
             >
-              <ul class='nav nav-pills flex-column' id='myTab' role='tablist'>
-                <li class='nav-item'>
+              <ul class='flex flex-wrap list-none pl-0 mb-0  flex-col' id='myTab' role='tablist'>
+                <li class=''>
                   <span>
                     <i class='fa-solid fa-arrow-right'></i>
                   </span>
@@ -333,7 +324,7 @@ const Eiv12 = () => {
                     Advanced Technology
                   </a>
                 </li>
-                <li class='nav-item'>
+                <li class=''>
                   <span>
                     <i class='fa-solid fa-arrow-right'></i>
                   </span>
@@ -350,7 +341,7 @@ const Eiv12 = () => {
                     Battery technology
                   </a>
                 </li>
-                <li class='nav-item'>
+                <li class=''>
                   <span>
                     <i class='fa-solid fa-arrow-right'></i>
                   </span>
@@ -367,7 +358,7 @@ const Eiv12 = () => {
                     High Performance
                   </a>
                 </li>
-                <li class='nav-item'>
+                <li class=''>
                   <span>
                     <i class='fa-solid fa-arrow-right'></i>
                   </span>
@@ -387,21 +378,21 @@ const Eiv12 = () => {
               </ul>
             </div>
 
-            <div class='pl-lg-5 pr-0 mt-2 mt-lg-0 mt-md-0 d-flex align-items-center tabRight'>
+            <div class='lg:pl-12 pr-0 mt-2 lg:mt-0 md:mt-0 flex items-center tabRight'>
               <div
-                class='tab-content w-100 h-100'
+                class='tab-content w-full h-full'
                 id='myTabContent'
                 style={{ overflow: 'hidden' }}
               >
                 <div
-                  class='tab-pane show active h-100'
+                  class='tab-pane opacity-100 block active h-full'
                   id='battery'
                   role='tabpanel'
                   aria-labelledby='batteryTech'
                 >
-                  <div class='d-xl-flex d-lg-flex d-md-flex d-flex align-items-center h-100'>
-                    <div class='col-lg-7 col-md-8 col-7 tabCenterContent'>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Higher density</h3> --> */}
+                  <div class='xl:flex lg:flex md:flex flex items-center h-full'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Higher density</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
                           SWITCH EiV delivers more than 100+ embedded
@@ -416,7 +407,7 @@ const Eiv12 = () => {
                       </ul>
                     </div>
                     <div
-                      class='col-lg-5 col-md-4 col-5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -424,14 +415,14 @@ const Eiv12 = () => {
                   </div>
                 </div>
                 <div
-                  class='tab-pane h-100'
+                  class='tab-pane h-full'
                   id='lightWeight'
                   role='tabpanel'
                   aria-labelledby='lightWeightConst'
                 >
-                  <div class='d-xl-flex d-lg-flex d-md-flex d-flex align-items-center h-100'>
-                    <div class='col-lg-7 col-md-8 col-7 tabCenterContent'>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Monocoque construction</h3> --> */}
+                  <div class='xl:flex lg:flex md:flex flex items-center h-full'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Monocoque construction</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
                           Advanced NMC technology providing a lightweight
@@ -448,7 +439,7 @@ const Eiv12 = () => {
                       </ul>
                     </div>
                     <div
-                      class='col-lg-5 col-md-4 col-5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -456,14 +447,14 @@ const Eiv12 = () => {
                   </div>
                 </div>
                 <div
-                  class='tab-pane h-100'
+                  class='tab-pane h-full'
                   id='Customer'
                   role='tabpanel'
                   aria-labelledby='customerFirst'
                 >
-                  <div class='d-xl-flex d-lg-flex d-md-flex d-flex align-items-center h-100'>
-                    <div class='col-lg-7 col-md-8 col-7 tabCenterContent'>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Adaptable to each customer</h3> --> */}
+                  <div class='xl:flex lg:flex md:flex flex items-center h-full'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Adaptable to each customer</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>Proven performance with uptime of over 98%</li>
                         <li>
@@ -475,17 +466,17 @@ const Eiv12 = () => {
                           service teams
                         </li>
                       </ul>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Flexible interior design</h3>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Flexible interior design</h3>
                               <ul class="squareList">
                                  <li>Comfortable, versatile seating for up to 28 people</li>
                               </ul>
-                              <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Easy access</h3>
+                              <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Easy access</h3>
                               <ul class="squareList">
                                  <li>HV and LV components are located in pull-out compartments simplifying in-field service and diagnostics</li>
                               </ul> --> */}
                     </div>
                     <div
-                      class='col-lg-5 col-md-4 col-5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -493,14 +484,14 @@ const Eiv12 = () => {
                   </div>
                 </div>
                 <div
-                  class='tab-pane h-100'
+                  class='tab-pane h-full'
                   id='lowest'
                   role='tabpanel'
                   aria-labelledby='lowestTco'
                 >
-                  <div class='d-xl-flex d-lg-flex d-md-flex d-flex align-items-center h-100'>
-                    <div class='col-lg-7 col-md-8 col-7 tabCenterContent'>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3 mt-4">Advanced engineering</h3> --> */}
+                  <div class='xl:flex lg:flex md:flex flex items-center h-full'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4 mt-4">Advanced engineering</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
                           Latest air conditioning system and air purifiers to
@@ -516,18 +507,18 @@ const Eiv12 = () => {
                           for all occupants
                         </li>
                       </ul>
-                      {/* <!-- <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Increased range</h3>
+                      {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Increased range</h3>
                               <ul class="squareList">
                                  <li>Advanced NMC battery technology provides enhanced efficiency and range</li>
                               </ul>
-                              <h3 class="mt-lg-5 mt-md-3 pb-3 pb-lg-2 pb-xl-2 pb-md-2 pb-sm-3  mt-4 ">Local assembly and after-sales</h3>
+                              <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Local assembly and after-sales</h3>
                               <ul class="squareList">
                                  <li>Tailored support increased vehicle on-road time and delivers local jobs and infrastructure
                                  </li>
                               </ul> --> */}
                     </div>
                     <div
-                      class='col-lg-5 col-md-4 col-5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3  w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -539,7 +530,11 @@ const Eiv12 = () => {
           </div>
         </div>
       </section>
-      <section class='generic-padding-sm bg-indigo-900  '>
+      <br />
+      <br />
+      <br />
+      
+      <section class='generic-padding-sm bg-[#00002d]  '>
         <div
           id='insideBus'
           class='carousel insideBus slide'
@@ -555,7 +550,7 @@ const Eiv12 = () => {
               <div class='row align-items-center'>
                 <div class='col-lg-10 col-md-12 offset-lg-1 pr-3 mx-auto'>
                   <div class='col-sm-12'>
-                    <h2 class='text-4xl font-medium pt-8 text-left mb-5 text-white p-3 md:px-16 md:pt-16 md:pb-10'>
+                    <h2 class='text-4xl font-medium pt-8 text-left mb-5 text-white p-3 md:px-28 md:pt-16 md:pb-10'>
                       Technical Specifications
                     </h2>
                   </div>
@@ -563,20 +558,28 @@ const Eiv12 = () => {
                     class='col-sm-12 customTable text-white '
                     style={{ position: 'relative' }}
                   >
-                    <div class=' p-3 md:px-16  md:pb-3'>
+                    <div class=' p-3 md:px-28  md:pb-3'>
                       <table class='table border '>
-                        <tr >
+                        <tr>
                           <td className='border md:p-2 p-1'>Product</td>
-                          <td className='border md:p-2 p-1'>EiV 12 Ultra low entry</td>
-                          <td className='border md:p-2 p-1'>EiV 12 Standard</td>
+                          <td className='border md:p-2 p-1 bg-indigo-500'>
+                            EiV 12 Ultra low entry
+                          </td>
+                          <td className='border md:p-2 p-1 bg-indigo-500'>
+                            EiV 12 Standard
+                          </td>
                         </tr>
                         <tr>
                           <td className='border md:p-2 p-1'>Application</td>
-                          <td className='border md:p-2 p-1'>Intra-City / Tarmac / Staff</td>
-                          <td className='border md:p-2 p-1'>Inter-City / Intra-city / Staff / School</td>
+                          <td className='border md:p-2 p-1'>
+                            Intra-City / Tarmac / Staff
+                          </td>
+                          <td className='border md:p-2 p-1'>
+                            Inter-City / Intra-city / Staff / School
+                          </td>
                         </tr>
                         <tr>
-                        <td className='border md:p-2 p-1'>Motor</td>
+                          <td className='border md:p-2 p-1'>Motor</td>
                           <td className='border md:p-2 p-1'>
                             Permanent Magnet Synchronous AC Motor; 235 KW Peak,
                             140 KW Continuous; 3100 Nm Peak
@@ -587,8 +590,10 @@ const Eiv12 = () => {
                           </td>
                         </tr>
                         <tr>
-                        <td className='border md:p-2 p-1'>Battery technology</td>
-                        <td className='border md:p-2 p-1'>
+                          <td className='border md:p-2 p-1'>
+                            Battery technology
+                          </td>
+                          <td className='border md:p-2 p-1'>
                             Advanced Lithium-Ion NMC chemistry with Modular
                             battery options
                           </td>
@@ -599,21 +604,31 @@ const Eiv12 = () => {
                         </tr>
                         <tr>
                           <td className='border md:p-2 p-1'>Suspension</td>
-                          <td className='border md:p-2 p-1'>Full Air Suspension</td>
-                          <td className='border md:p-2 p-1'>Full Air Suspension</td>
+                          <td className='border md:p-2 p-1'>
+                            Full Air Suspension
+                          </td>
+                          <td className='border md:p-2 p-1'>
+                            Full Air Suspension
+                          </td>
                         </tr>
                         <tr>
                           <td className='border md:p-2 p-1'>Brakes</td>
-                          <td className='border md:p-2 p-1'>Disc Brakes at Front & Rear</td>
-                          <td className='border md:p-2 p-1'>Disc Brakes at Front & Drum at Rear</td>
+                          <td className='border md:p-2 p-1'>
+                            Disc Brakes at Front & Rear
+                          </td>
+                          <td className='border md:p-2 p-1'>
+                            Disc Brakes at Front & Drum at Rear
+                          </td>
                         </tr>
                         <tr>
                           <td className='border md:p-2 p-1'>Door Locations</td>
                           <td className='border md:p-2 p-1'>FOH / WB / ROH</td>
-                          <td className='border md:p-2 p-1'>FOH / WB / ROH / BRT</td>
+                          <td className='border md:p-2 p-1'>
+                            FOH / WB / ROH / BRT
+                          </td>
                         </tr>
                         <tr>
-                        <td className='border md:p-2 p-1'>Range</td>
+                          <td className='border md:p-2 p-1'>Range</td>
                           <td className='border md:p-2 p-1'>
                             300 kms with single charge and up to 500 kms/day
                             with dual gun charging
@@ -629,14 +644,16 @@ const Eiv12 = () => {
                           <td className='border md:p-2 p-1'>1.5 – 3 hours</td>
                         </tr>
                         <tr>
-                          <td className='border md:p-2 p-1'>Floor Height (mm)</td>
+                          <td className='border md:p-2 p-1'>
+                            Floor Height (mm)
+                          </td>
                           <td className='border md:p-2 p-1'>400</td>
                           <td className='border md:p-2 p-1'>900</td>
                         </tr>
                         <tr>
-                         <td className='border md:p-2 p-1'>Height (mm)</td>
-                         <td className='border md:p-2 p-1'>3180</td>
-                         <td className='border md:p-2 p-1'>3350</td>
+                          <td className='border md:p-2 p-1'>Height (mm)</td>
+                          <td className='border md:p-2 p-1'>3180</td>
+                          <td className='border md:p-2 p-1'>3350</td>
                         </tr>
                         <tr>
                           <td className='border md:p-2 p-1'>Length (mm)</td>
@@ -654,19 +671,25 @@ const Eiv12 = () => {
                           <td className='border md:p-2 p-1'>6200</td>
                         </tr>
                         <tr>
-                          <td className='border md:p-2 p-1'>Seating Capacity</td>
-                          <td className='border md:p-2 p-1'>35+D+WC (Customizable)</td>
-                          <td className='border md:p-2 p-1'>40 - 45 + D (Customizable)</td>
+                          <td className='border md:p-2 p-1'>
+                            Seating Capacity
+                          </td>
+                          <td className='border md:p-2 p-1'>
+                            35+D+WC (Customizable)
+                          </td>
+                          <td className='border md:p-2 p-1'>
+                            40 - 45 + D (Customizable)
+                          </td>
                         </tr>
                       </table>
                     </div>
-                    <small class='text-white px-3 md:px-14'>
+                    <small class='text-white px-3 md:px-28'>
                       *Low floor – Certification WIP
                     </small>
                   </div>
-                  <div class='col-sm-12  px-3 md:px-14 pb-8 pt-4'>
+                  <div class='col-sm-12  px-3 md:px-28 pb-8 pt-4'>
                     <button
-                      class='bg-green-400 px-3 py-2  '
+                      class='bg-green-400 rounded-lg hover:bg-indigo-600 hover:text-white px-3 py-2  '
                       data-toggle='modal'
                       data-target='.download'
                     >
@@ -802,24 +825,32 @@ const Eiv12 = () => {
             </a> --> */}
         </div>
       </section>
-      <section class='col-12'>
-        <div class='row generic-padding-lg'>
-          <div class='col-lg-3 col-md-12 offset-lg-1'>
+      <section class='my-8'>
+        <div class='row generic-padding-lg grid md:grid-cols-3 grid-rows'>
+          <div class='col-span-2 md:col-span-1'>
             {/* <!-- <h2 class="subHeading mb-4">A free-flowing <br> operation.</h2> --> */}
-            <p class='pr-0 pb-md-4 pb-4 pr-lg-5 pr-md-5'>
+            <p class='p-5 text-lg pb-4 md:px-5 lg:px-16 lg:text-xl'>
               The current range of SWITCH EV buses in India, have had an uptime
               of over 98% consistently throughout the last few years, which, is
               a testimony to our product performance in terms of reliability and
               durability.
             </p>
           </div>
-          <div class='col-lg-8 col-md-12'>
-            <div class='sliderNextPrev'>
-              <div class='item' data-aos='fade-up' data-aos-duration='500'>
-                <div class='divZoom'>
-                  <img src={freeFlowing1} class='img-fluid' alt='freeFlowing' />
+          <div class='col-lg-8 col-md-12 col-span-2 m-1'>
+            <div class='sliderNextPrev grid sm:grid-cols-2 grid-rows'>
+              <div
+                class='item col-span-1 m-1 bg-gray-200 rounded-xl'
+                data-aos='fade-up'
+                data-aos-duration='500'
+              >
+                <div class='overflow-hidden'>
+                  <img
+                    src={freeFlowing1}
+                    class='hover:scale-110 overflow-hidden duration-300 object-cover w-full'
+                    alt='freeFlowing'
+                  />
                 </div>
-                <div class='info'>
+                <div class='px-2 py-1'>
                   {/* <!-- <h4 class="font-weight-bold ">We’ve thought of everything.</span> </h4> --> */}
                   <p>
                     The modular batteries increase the capacity per battery cell
@@ -833,15 +864,19 @@ const Eiv12 = () => {
                 </div>
               </div>
 
-              <div class='item' data-aos='fade-up' data-aos-duration='500'>
-                <div class='divZoom'>
+              <div
+                class='item col-span-1 m-1 bg-gray-200 rounded-xl'
+                data-aos='fade-up'
+                data-aos-duration='500'
+              >
+                <div class='overflow-hidden'>
                   <img
                     src={freeFlowing2}
-                    class='img-fluid'
+                    class='hover:scale-110 overflow-hidden duration-300 object-cover w-full'
                     alt='free Flowing 2'
                   />
                 </div>
-                <div class='info'>
+                <div class='px-2 py-1 '>
                   {/* <!-- <h4 class="font-weight-bold ">Comfortably in control.</span> </h4> --> */}
                   <p>
                     Maintenance of this ultra-modern eBus can be carried out
