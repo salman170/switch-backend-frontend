@@ -298,15 +298,19 @@ const Eiv12 = () => {
           </div>
         </div>
       </section> */}
-     <section class='generic-padding-sm'>
+      <section class='generic-padding-sm'>
         <div class='sm:w-full pr-4 pl-4'>
           <div class='flex  '>
-            <div 
+            <div
               class='tabLeft clippedLeft'
               data-aos='fade-right'
               data-aos-duration='1500'
             >
-              <ul class='flex flex-wrap list-none pl-0 mb-0  flex-col' id='myTab' role='tablist'>
+              <ul
+                class='flex flex-wrap list-none pl-0 mb-0  flex-col'
+                id='myTab'
+                role='tablist'
+              >
                 <li class=''>
                   <span>
                     <i class='fa-solid fa-arrow-right'></i>
@@ -391,7 +395,7 @@ const Eiv12 = () => {
                   aria-labelledby='batteryTech'
                 >
                   <div class='xl:flex lg:flex md:flex flex items-center h-full'>
-                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                    <div class='lg:w-3/5  md:w-2/3  w-3/5 tabCenterContent'>
                       {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Higher density</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
@@ -407,7 +411,7 @@ const Eiv12 = () => {
                       </ul>
                     </div>
                     <div
-                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3  w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -421,7 +425,7 @@ const Eiv12 = () => {
                   aria-labelledby='lightWeightConst'
                 >
                   <div class='xl:flex lg:flex md:flex flex items-center h-full'>
-                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3  w-3/5 tabCenterContent'>
                       {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Monocoque construction</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
@@ -439,7 +443,7 @@ const Eiv12 = () => {
                       </ul>
                     </div>
                     <div
-                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3  w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -453,7 +457,7 @@ const Eiv12 = () => {
                   aria-labelledby='customerFirst'
                 >
                   <div class='xl:flex lg:flex md:flex flex items-center h-full'>
-                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3  w-3/5 tabCenterContent'>
                       {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4  mt-4 ">Adaptable to each customer</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>Proven performance with uptime of over 98%</li>
@@ -476,7 +480,7 @@ const Eiv12 = () => {
                               </ul> --> */}
                     </div>
                     <div
-                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3 pr-4 pl-4 w-2/5 tabRightImage'
+                      class='lg:w-2/5 pr-4 pl-4 md:w-1/3  w-2/5 tabRightImage'
                       data-aos='fade-down'
                       data-aos-delay='100'
                       data-aos-duration='1500'
@@ -490,7 +494,7 @@ const Eiv12 = () => {
                   aria-labelledby='lowestTco'
                 >
                   <div class='xl:flex lg:flex md:flex flex items-center h-full'>
-                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3 pr-4 pl-4 w-3/5 tabCenterContent'>
+                    <div class='lg:w-3/5 pr-4 pl-4 md:w-2/3  w-3/5 tabCenterContent'>
                       {/* <!-- <h3 class="lg:mt-12 md:mt-4 pb-3 lg:pb-2 xl:pb-2 md:pb-2 sm:pb-4 mt-4">Advanced engineering</h3> --> */}
                       <ul class='squareList squareList-lg'>
                         <li>
@@ -533,296 +537,140 @@ const Eiv12 = () => {
       <br />
       <br />
       <br />
-      
+
       <section class='generic-padding-sm bg-[#00002d]  '>
-        <div
-          id='insideBus'
-          class='carousel insideBus slide'
-          data-ride='carousel'
-          data-interval='false'
-        >
-          {/* <!-- <ul class="carousel-indicators">
-               <li data-target="#insideBus" data-slide-to="0" class="active"></li>
-              <li data-target="#insideBus" data-slide-to="1"></li> 
-            </ul> --> */}
-          <div class='carousel-inner'>
-            <div class='carousel-item active'>
-              <div class='row align-items-center'>
-                <div class='col-lg-10 col-md-12 offset-lg-1 pr-3 mx-auto'>
-                  <div class='col-sm-12'>
-                    <h2 class='text-4xl font-medium pt-8 text-left mb-5 text-white p-3 md:px-28 md:pt-16 md:pb-10'>
-                      Technical Specifications
-                    </h2>
-                  </div>
-                  <div
-                    class='col-sm-12 customTable text-white '
-                    style={{ position: 'relative' }}
-                  >
-                    <div class=' p-3 md:px-28  md:pb-3'>
-                      <table class='table border '>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Product</td>
-                          <td className='border md:p-2 p-1 bg-indigo-500'>
-                            EiV 12 Ultra low entry
-                          </td>
-                          <td className='border md:p-2 p-1 bg-indigo-500'>
-                            EiV 12 Standard
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Application</td>
-                          <td className='border md:p-2 p-1'>
-                            Intra-City / Tarmac / Staff
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Inter-City / Intra-city / Staff / School
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Motor</td>
-                          <td className='border md:p-2 p-1'>
-                            Permanent Magnet Synchronous AC Motor; 235 KW Peak,
-                            140 KW Continuous; 3100 Nm Peak
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Permanent Magnet Synchronous AC Motor; 235 KW Peak,
-                            140 KW Continuous; 3100 Nm Peak
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>
-                            Battery technology
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Advanced Lithium-Ion NMC chemistry with Modular
-                            battery options
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Advanced Lithium-Ion NMC chemistry with Modular
-                            battery options
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Suspension</td>
-                          <td className='border md:p-2 p-1'>
-                            Full Air Suspension
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Full Air Suspension
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Brakes</td>
-                          <td className='border md:p-2 p-1'>
-                            Disc Brakes at Front & Rear
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            Disc Brakes at Front & Drum at Rear
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Door Locations</td>
-                          <td className='border md:p-2 p-1'>FOH / WB / ROH</td>
-                          <td className='border md:p-2 p-1'>
-                            FOH / WB / ROH / BRT
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Range</td>
-                          <td className='border md:p-2 p-1'>
-                            300 kms with single charge and up to 500 kms/day
-                            with dual gun charging
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            300 kms with single charge and up to 500 kms/day
-                            with dual gun charging
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Fast Charging</td>
-                          <td className='border md:p-2 p-1'>1.5 – 3 hours</td>
-                          <td className='border md:p-2 p-1'>1.5 – 3 hours</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>
-                            Floor Height (mm)
-                          </td>
-                          <td className='border md:p-2 p-1'>400</td>
-                          <td className='border md:p-2 p-1'>900</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Height (mm)</td>
-                          <td className='border md:p-2 p-1'>3180</td>
-                          <td className='border md:p-2 p-1'>3350</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Length (mm)</td>
-                          <td className='border md:p-2 p-1'>12000</td>
-                          <td className='border md:p-2 p-1'>12000</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Width (mm)</td>
-                          <td className='border md:p-2 p-1'>2600</td>
-                          <td className='border md:p-2 p-1'>2600</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>Wheel Base (mm)</td>
-                          <td className='border md:p-2 p-1'>6320</td>
-                          <td className='border md:p-2 p-1'>6200</td>
-                        </tr>
-                        <tr>
-                          <td className='border md:p-2 p-1'>
-                            Seating Capacity
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            35+D+WC (Customizable)
-                          </td>
-                          <td className='border md:p-2 p-1'>
-                            40 - 45 + D (Customizable)
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <small class='text-white px-3 md:px-28'>
-                      *Low floor – Certification WIP
-                    </small>
-                  </div>
-                  <div class='col-sm-12  px-3 md:px-28 pb-8 pt-4'>
-                    <button
-                      class='bg-green-400 rounded-lg hover:bg-indigo-600 hover:text-white px-3 py-2  '
-                      data-toggle='modal'
-                      data-target='.download'
-                    >
-                      Download Brochure
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- <div class="carousel-item ">
-
-                  <div class="row ">
-                    <div class=" col-md-12  pr-3">
-                        <h2 class="subHeading text-left mb-5 text-white d-flex justify-content-center">Dimensions and weights</h2>
-                        <div class="text-center">
-                        <img src="https://www.switchmobilityev.com/sites/default/files/e1/slide-2-image.jpg" class="img-fluid mx-auto imageSize" data-aos="fade-in" data-aos-duration="1500"/>
-                     </div>
-                     <div class="row">
-                        <div class="col-lg-5 offset-lg-1 customTable">
-                        <h3 class="text-left mb-2 text-white">Overall Dimensions</h3>
-                        <div class="table-responsive ">
-                           <table class="table ">
-                              <tr>
-                                 <td><span>C</span></td>
-                                 <td>Wheelbase</td>
-                                 <td>6000 mm</td>
-                              </tr>
-                              <tr>
-                                 <td><span>D</span></td>
-                                 <td>Overall length</td>
-                                 <td>120000 mm</td>
-                              </tr>
-                              <tr>
-                                 <td><span>E</span></td>
-                                 <td>Front overhang</td>
-                                 <td>2777 mm</td>
-                              </tr>
-                              <tr>
-                                 <td><span>F</span></td>
-                                 <td>Rear overhang</td>
-                                 <td>3223 mm</td>
-                              </tr>
-                              <tr>
-                                 <td>&nbsp;</td>
-                                 <td>Track front</td>
-                                 <td>2234 mm</td>
-                              </tr>
-                              <tr>
-                                 <td>&nbsp;</td>
-                                 <td>Track rear</td>
-                                 <td>6000 mm</td>
-                              </tr>
-                              <tr>
-                                 <td><span>G</span></td>
-                                 <td>Angle of approach</td>
-                                 <td>7.2 <sup>0</sup></td>
-                              </tr>
-                              <tr>
-                                 <td><span>H</span></td>
-                                 <td>Angle of departure</td>
-                                 <td>7.3 <sup>0</sup></td>
-                              </tr>
-                              <tr>
-                                 <td>&nbsp;</td>
-                                 <td>% of rear overhang to wheelbase</td>
-                                 <td>53%</td>
-                              </tr>
-                           </table>
-                        </div>
-                     </div>
-
-                     <div class="col-lg-5 mr-auto">
-                        
-                        <h3 class="text-left mb-2 text-white">Chassis weights</h3>
-                        <div class="table-responsive tableWithBorderBottom  ">
-                           <table class="table ">
-                              <tr>
-          
-                                 <td>Front axle (unladen)</td>
-                                 <td>4062 kg</td>
-                              </tr>
-                              <tr>
-               
-                                 <td>Rear axle (unladen)</td>
-                                 <td>7492 kg</td>
-                              </tr>
-                              <tr>
-                                 <td>Kerb weight (standard capacity battery)</td>
-                                 <td>10775 kg </td>
-                              </tr>
-                              <tr>
-                                 <td>GVW</td>
-                                 <td>18000 kg</td>
-                              </tr>
-
-                           </table>
-                        </div>
-
-                        <h3 class="text-left mb-2 text-white mt-5">Turning diameter</h3>
-                        <div class="table-responsive tableWithBorderBottom">
-                           <table class="table ">
-                              <tr>
-          
-                                 <td>Kerb to kerb</td>
-                                 <td>18.84 m</td>
-                              </tr>
-                              <tr>
-               
-                                 <td>Wall to wall</td>
-                                 <td>22.2 m</td>
-                              </tr>
-                           </table>
-                        </div>
-
-                     </div>
-                  </div>
-<div class="col-lg-5 offset-lg-1">
-                        <button class=" customBtn" data-toggle="modal" data-target=".download">Download
-                           Brochure</button>
-                        </div>
-                     </div>
-                   
-
-                  </div>
-               </div> --> */}
+        <div class='col-lg-10 col-md-12 offset-lg-1 pr-3 mx-auto '>
+          <div class='text-4xl font-medium pt-8 text-left mb-5 text-white p-3 md:px-28 md:pt-16 md:pb-10'>
+            Technical Specifications
           </div>
-          {/* <!-- <a class="carousel-control-prev" href="#insideBus" data-slide="prev">
-               <i class="fa-solid fa-arrow-left-long"></i>
-            </a>
-            <a class="carousel-control-next" href="#insideBus" data-slide="next">
-               <i class="fa-solid fa-arrow-right-long"></i>
-            </a> --> */}
+          <div
+            class='col-sm-12 customTable text-white '
+            style={{ position: 'relative' }}
+          >
+            <div class=' p-3 md:px-28  md:pb-3'>
+              <table class='table border '>
+                <tr>
+                  <td className='border md:p-2 p-1'>Product</td>
+                  <td className='border md:p-2 p-1 bg-indigo-500'>
+                    EiV 12 Ultra low entry
+                  </td>
+                  <td className='border md:p-2 p-1 bg-indigo-500'>
+                    EiV 12 Standard
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Application</td>
+                  <td className='border md:p-2 p-1'>
+                    Intra-City / Tarmac / Staff
+                  </td>
+                  <td className='border md:p-2 p-1'>
+                    Inter-City / Intra-city / Staff / School
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Motor</td>
+                  <td className='border md:p-2 p-1'>
+                    Permanent Magnet Synchronous AC Motor; 235 KW Peak, 140 KW
+                    Continuous; 3100 Nm Peak
+                  </td>
+                  <td className='border md:p-2 p-1'>
+                    Permanent Magnet Synchronous AC Motor; 235 KW Peak, 140 KW
+                    Continuous; 3100 Nm Peak
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Battery technology</td>
+                  <td className='border md:p-2 p-1'>
+                    Advanced Lithium-Ion NMC chemistry with Modular battery
+                    options
+                  </td>
+                  <td className='border md:p-2 p-1'>
+                    Advanced Lithium-Ion NMC chemistry with Modular battery
+                    options
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Suspension</td>
+                  <td className='border md:p-2 p-1'>Full Air Suspension</td>
+                  <td className='border md:p-2 p-1'>Full Air Suspension</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Brakes</td>
+                  <td className='border md:p-2 p-1'>
+                    Disc Brakes at Front & Rear
+                  </td>
+                  <td className='border md:p-2 p-1'>
+                    Disc Brakes at Front & Drum at Rear
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Door Locations</td>
+                  <td className='border md:p-2 p-1'>FOH / WB / ROH</td>
+                  <td className='border md:p-2 p-1'>FOH / WB / ROH / BRT</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Range</td>
+                  <td className='border md:p-2 p-1'>
+                    300 kms with single charge and up to 500 kms/day with dual
+                    gun charging
+                  </td>
+                  <td className='border md:p-2 p-1'>
+                    300 kms with single charge and up to 500 kms/day with dual
+                    gun charging
+                  </td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Fast Charging</td>
+                  <td className='border md:p-2 p-1'>1.5 – 3 hours</td>
+                  <td className='border md:p-2 p-1'>1.5 – 3 hours</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Floor Height (mm)</td>
+                  <td className='border md:p-2 p-1'>400</td>
+                  <td className='border md:p-2 p-1'>900</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Height (mm)</td>
+                  <td className='border md:p-2 p-1'>3180</td>
+                  <td className='border md:p-2 p-1'>3350</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Length (mm)</td>
+                  <td className='border md:p-2 p-1'>12000</td>
+                  <td className='border md:p-2 p-1'>12000</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Width (mm)</td>
+                  <td className='border md:p-2 p-1'>2600</td>
+                  <td className='border md:p-2 p-1'>2600</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Wheel Base (mm)</td>
+                  <td className='border md:p-2 p-1'>6320</td>
+                  <td className='border md:p-2 p-1'>6200</td>
+                </tr>
+                <tr>
+                  <td className='border md:p-2 p-1'>Seating Capacity</td>
+                  <td className='border md:p-2 p-1'>35+D+WC (Customizable)</td>
+                  <td className='border md:p-2 p-1'>
+                    40 - 45 + D (Customizable)
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <small class='text-white px-3 md:px-28'>
+              *Low floor – Certification WIP
+            </small>
+          </div>
+          <div class='col-sm-12  px-3 md:px-28 pb-8 pt-4'>
+            <button
+              class='bg-green-400 rounded-lg hover:bg-indigo-600 hover:text-white px-3 py-2  '
+              data-toggle='modal'
+              data-target='.download'
+            >
+              Download Brochure
+            </button>
+          </div>
         </div>
       </section>
       <section class='my-8'>
@@ -839,11 +687,11 @@ const Eiv12 = () => {
           <div class='col-lg-8 col-md-12 col-span-2 m-1'>
             <div class='sliderNextPrev grid sm:grid-cols-2 grid-rows'>
               <div
-                class='item col-span-1 m-1 bg-gray-200 rounded-xl'
+                class='item col-span-1 m-1 bg-gray-200 rounded-lg'
                 data-aos='fade-up'
                 data-aos-duration='500'
               >
-                <div class='overflow-hidden'>
+                <div class='overflow-hidden rounded-lg'>
                   <img
                     src={freeFlowing1}
                     class='hover:scale-110 overflow-hidden duration-300 object-cover w-full'
@@ -865,11 +713,11 @@ const Eiv12 = () => {
               </div>
 
               <div
-                class='item col-span-1 m-1 bg-gray-200 rounded-xl'
+                class='item col-span-1 m-1 bg-gray-200 rounded-lg'
                 data-aos='fade-up'
                 data-aos-duration='500'
               >
-                <div class='overflow-hidden'>
+                <div class='overflow-hidden rounded-lg'>
                   <img
                     src={freeFlowing2}
                     class='hover:scale-110 overflow-hidden duration-300 object-cover w-full'
