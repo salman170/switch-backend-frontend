@@ -39,23 +39,16 @@ const Eiv22 = () => {
         <div class='col-12  bg-[#16b895]'>
           <div class='grid lg:grid-cols-3  ' style={{ overflow: 'hidden' }}>
             <div class='col-span-1 text-white '>
-              <div class=' text-2xl font-medium md:text-3xl lg:text-5xl lg:pt-18 text-left p-5 md:p-16'>
-                Next-generation eBus for India
+              <div class=' text-2xl font-medium md:text-3xl lg:text-5xl lg:pt-18 text-left p-5 md:px-16 md:pt-16'>
+              India's first electric double-decker
               </div>
 
-              <p class='text-left px-5 md:px-10 lg:px-14 lg:text-lg'>
-                SWITCH EiV 12 is our first fully electric bus specifically
-                designed for the Indian market. This next-generation eBus
-                features customer-centric offerings on technology and passenger
-                comfort while being contemporary and futuristic.
+              <p class='text-left  px-5 md:px-16 lg:px-12 lg:text-lg'>
+              Introducing the next generation of intra-city bus travel. The iconic double-decker bus has gone fully electric for cleaner, smarter journeys that won’t harm the earth.
               </p>
               <br />
-              <p class='text-left px-5 md:px-10 lg:px-14 lg:text-lg pb-4'>
-                The SWITCH EiV 12 delivers exceptional drive performance and
-                efficiency and is embedded with proprietary technology solutions
-                including ‘SWITCH iON’ to enable remote, real-time diagnostics
-                and monitoring, as well as world-class digital battery
-                management tools.
+              <p class='text-left px-5 md:px-16 lg:px-12 lg:text-lg pb-4'>
+              Designed, developed and manufactured in India using SWITCH'S global expertise in electric buses, the SWITCH EiV 22 is equipped with the latest technology, ultra-modern design, highest safety and best-in-class comfort features. This renewed icon will revolutionise public transportation in the country and set new standards across the industry.
               </p>
               {/* <img
                 class='img-fluid d-lg-none d-md-block pb-4'
@@ -83,14 +76,14 @@ const Eiv22 = () => {
         </div>
       </section>
       <section>
-        <div className='flex flex-col md:flex-row overflow-hidden  '>
+        <div className='flex flex-col md:flex-row overflow-hidden items-center '>
           <div className='md:w-1/2'>
             <div class='col-span-1  '>
-              <div class=' text-2xl mt-8 font-medium md:text-3xl lg:text-5xl lg:pt-18 text-left pl-8 md:px-10 md:pt-10 lg:mx-14 xl:mx-18 lg:mt-18 xl:mt-20'>
+              <div class=' text-2xl pt-10 font-medium md:text-3xl lg:text-5xl  text-left pl-8 md:px-10  lg:mx-14 xl:mx-18 '>
                 Upgrading the urban commute
               </div>
 
-              <div class='text-left px-5 pl-8 md:px-10 lg:mx-14 xl:mx-18 lg:text-lg font-semibold pb-5 '>
+              <div class='text-left px-5 pt-4 pl-8 md:px-10 lg:mx-14 xl:mx-18 lg:text-lg font-semibold pb-5 '>
                 Contemporary, comfortable, cool.
               </div>
 
@@ -113,15 +106,15 @@ const Eiv22 = () => {
                 terminal and depot floor space per seated passenger.
               </p>
 
-              <div className='md:m-8 m-4 px-4 md:px-10 xl:m-20 '>
-                <button className='bg-indigo-600 text-white py-2 px-3'>
+              <div className='md:mb-4 px-5   xl:m-20 pl-8 md:px-10  lg:mx-14 xl:mx-16 '>
+                <button className='bg-indigo-600 text-white py-2 px-4 '>
                   ENQUIRE NOW
                 </button>
               </div>
             </div>
           </div>
           <div
-            className='md:w-1/2 p-5 md:px-10 md:pt-10 lg:mt-18 xl:mt-20  '
+            className='md:w-1/2 p-5 xl:py-40  '
             data-aos='fade-left'
             data-aos-duration='1500'
           >
