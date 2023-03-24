@@ -4,8 +4,8 @@ import heroImageMobile from '../../../assets/sites/default/files/metrodecker/met
 import metrodecker3rd from '../../../assets/sites/default/files/metrodecker/metrodecker-3rd-fold.jpg';
 import subBanner from '../../../assets/sites/default/files/metrodecker/sub-banner1.jpg';
 import metrodeckerLightest from '../../../assets/sites/default/files/metrodecker/metrodecker-lightest-bus.jpg';
-import news1 from "../../../assets/sites/default/files/metrodecker/light-on-earth.jpg"
-import news2 from "../../../assets/sites/default/files/metrodecker/customer-service.jpg"
+import news1 from '../../../assets/sites/default/files/metrodecker/light-on-earth.jpg';
+import news2 from '../../../assets/sites/default/files/metrodecker/customer-service.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -45,7 +45,7 @@ const Metrodecker = () => {
               data-aos-duration='1500'
             />
           </div>
-          <div  className='object-fill w-full  pl-2' >
+          <div className='object-fill w-full  pl-2'>
             <img
               src={metrodecker3rd}
               alt=''
@@ -125,8 +125,7 @@ const Metrodecker = () => {
       </section>
       <section className='p-1'>
         <video
-          
-          height="50%"
+          height='50%'
           preload='metadata'
           loop
           autoPlay
@@ -160,91 +159,94 @@ const Metrodecker = () => {
             <div class=' p-3 md:px-28  md:pb-3'>
               <table class='table m-auto '>
                 <tr>
-                  <td className='border  md:pr-60 md:py-2 md:pl-2 p-1 xl:pr-96  bg-indigo-500'>
+                  <td className='border-b-2 md:text-xl  md:pr-60 md:py-2 md:pl-2 p-1 xl:pr-96  bg-indigo-500'>
                     Body Length Options
                   </td>
-                  <td className='border md:pr-24 py-1 lg:pr-48 bg-indigo-500'>
+                  <td className='border-b-2 md:text-xl md:pr-24 py-1 lg:pr-48 bg-indigo-500'>
                     10.5 m
                   </td>
-                  <td className='border md:pr-24 py-1 lg:pr-48 bg-indigo-500'>
+                  <td className='border-b-2 md:text-xl md:pr-24 py-1 lg:pr-48 bg-indigo-500'>
                     11.1 m
                   </td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Overall length (mm)</td>
-                  <td className='border md:p-2 p-1'>10,500</td>
-                  <td className='border md:p-2 p-1'>11,140</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Overall length (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>10,500</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>11,140</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Overall width (mm)</td>
-                  <td className='border md:p-2 p-1'>2,500</td>
-                  <td className='border md:p-2 p-1'>2,500</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Overall width (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,500</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,500</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Overall height (mm)</td>
-                  <td className='border md:p-2 p-1'>4,310</td>
-                  <td className='border md:p-2 p-1'>4,310</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Overall height (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>4,310</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>4,310</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Wheelbase (mm)</td>
-                  <td className='border md:p-2 p-1'>5,350</td>
-                  <td className='border md:p-2 p-1'>6,000</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Wheelbase (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>5,350</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>6,000</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Front overhang (mm)</td>
-                  <td className='border md:p-2 p-1'>2,760</td>
-                  <td className='border md:p-2 p-1'>2,760</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Front overhang (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,760</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,760</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Rear overhang (mm)</td>
-                  <td className='border md:p-2 p-1'>2,386</td>
-                  <td className='border md:p-2 p-1'>2,386</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Rear overhang (mm)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,386</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>2,386</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>
                     Gross vehicle weight design/plated (kg)
                   </td>
-                  <td className='border md:p-2 p-1'>18,000</td>
-                  <td className='border md:p-2 p-1'>18,000</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>18,000</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>18,000</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>
                     Front axle weight design/plated (kg)
                   </td>
-                  <td className='border md:p-2 p-1'>6,300</td>
-                  <td className='border md:p-2 p-1'>6,300</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>6,300</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>6,300</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>
                     Rear axle weight design/plated (kg)
                   </td>
-                  <td className='border md:p-2 p-1'>11,600</td>
-                  <td className='border md:p-2 p-1'>11,600</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>11,600</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>11,600</td>
                 </tr>
+
+                <br />
+
                 <tr>
-                  <td className='border md:p-2 p-1 bg-indigo-500'>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1 bg-indigo-500'>
                     Seating Capacity
                   </td>
-                  <td className='border md:p-2 py-1 bg-indigo-500'>10.5 m</td>
-                  <td className='border md:p-2 py-1 bg-indigo-500'>11.1 m</td>
+                  <td className='border-b-2 md:text-xl md:p-2 py-1 bg-indigo-500'>10.5 m</td>
+                  <td className='border-b-2 md:text-xl md:p-2 py-1 bg-indigo-500'>11.1 m</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Seats (maximum)</td>
-                  <td className='border md:p-2 p-1'>63</td>
-                  <td className='border md:p-2 p-1'>84</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Seats (maximum)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>63</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>84</td>
                 </tr>
                 <tr>
-                  <td className='border md:p-2 p-1'>Total (maximum)</td>
-                  <td className='border md:p-2 p-1'>94+</td>
-                  <td className='border md:p-2 p-1'>94+</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>Total (maximum)</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>94+</td>
+                  <td className='border-b-2 md:text-xl md:p-2 p-1'>94+</td>
                 </tr>
+                
               </table>
-              
             </div>
           </div>
           <div class='text-center pb-8 pt-4'>
             <button
-              class='bg-green-400 rounded-lg hover:bg-indigo-600 hover:text-white px-3 py-2  '
+              class='bg-green-500 rounded-lg hover:bg-indigo-600 hover:text-white px-4 py-3 text-xl '
               data-toggle='modal'
               data-target='.download'
             >
@@ -258,10 +260,15 @@ const Metrodecker = () => {
           <div class='col-span-2 md:col-span-1'>
             {/* <!-- <h2 class="subHeading mb-4">A free-flowing <br> operation.</h2> --> */}
             <div className='text-3xl px-5  pt-5 md:px-5 lg:px-16 font-medium'>
-            A premium passenger experience.
+              A premium passenger experience.
             </div>
             <p class='p-5 text-lg text-justify  pb-4 md:px-5 lg:px-16 lg:text-xl'>
-            At SWITCH, we pride ourselves on offering you the lowest Total Cost of Ownership whilst providing a superior product. Quiet, efficient motors ensure a smoother drive and reliable operation. All of this – alongside a multitude of accessibility, driver and passenger features – means that your passengers can enjoy a better journey at the lowest total cost to you.
+              At SWITCH, we pride ourselves on offering you the lowest Total
+              Cost of Ownership whilst providing a superior product. Quiet,
+              efficient motors ensure a smoother drive and reliable operation.
+              All of this – alongside a multitude of accessibility, driver and
+              passenger features – means that your passengers can enjoy a better
+              journey at the lowest total cost to you.
             </p>
           </div>
           <div class='col-lg-8 col-md-12 col-span-2 m-1 '>
@@ -280,11 +287,13 @@ const Metrodecker = () => {
                 </div>
                 <div class='px-2 py-1'>
                   {/* <!-- <h4 class="font-weight-bold ">We’ve thought of everything.</span> </h4> --> */}
-                  <p className='py-2 text-2xl md:py-8 font-medium'>Lighter on the road, and on the planet</p>
+                  <p className='py-2 text-2xl md:py-8 font-medium'>
+                    Lighter on the road, and on the planet
+                  </p>
                   <p className='pb-6'>
-                  Lightest bus in its class, weighing as little as 11.2T unladen. The SWITCH metrodecker is capable of delivering a range of up to 215 miles on a single charge
-
-                        
+                    Lightest bus in its class, weighing as little as 11.2T
+                    unladen. The SWITCH metrodecker is capable of delivering a
+                    range of up to 215 miles on a single charge
                   </p>
                 </div>
               </div>
@@ -303,9 +312,13 @@ const Metrodecker = () => {
                 </div>
                 <div class='px-2 py-1 '>
                   {/* <!-- <h4 class="font-weight-bold ">Comfortably in control.</span> </h4> --> */}
-                  <p className='py-2 md:py-10 text-2xl font-medium'>Quality customer service</p>
+                  <p className='py-2 md:py-10 text-2xl font-medium'>
+                    Quality customer service
+                  </p>
                   <p className='pb-6'>
-                  You’re never on your own. Our regionally based customer service managers are the first point of call for everything you need to keep your vehicles on the road.
+                    You’re never on your own. Our regionally based customer
+                    service managers are the first point of call for everything
+                    you need to keep your vehicles on the road.
                   </p>
                 </div>
               </div>
