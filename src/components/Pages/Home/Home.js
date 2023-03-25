@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import vBUSES from '../../../assets/video/vBUSES.mp4';
 import switchInfographic from '../../../assets/sites/default/files/Switch-Infographic_updated3860.png?v=1';
 import switchInfographicupdated from '../../../assets/sites/default/files/Switch-Infographic_updated-mob3860.jpg?v=1';
@@ -15,7 +17,7 @@ import patternBoxSvg from '../../../assets/themes/custom/switchmobility/resource
 import Slider from './Slider';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   const width = window.innerWidth;
@@ -87,7 +89,7 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </section>
-      <section className='generic-padding'>
+      <section >
         <div>
           <div className='flex flex-col md:flex-row '>
             <div>
@@ -121,70 +123,70 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='row gutter-100 my-4 grid md:grid-cols-3 gap-6 mx-4 md:mx-12 sm:grid-cols-2'>
+          <div className=' my-4 grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-12 sm:grid-cols-2'>
             <div className='mb-5' data-aos='fade-in' data-aos-delay='300'>
-              <div className='text-xl lg:text-3xl my-5 font-semibold'>
-                <h3 className='title'>SWITCH e1</h3>
+              <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
+                <h3 >SWITCH e1</h3>
               </div>
-              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300'>
-                <img src={switch_e1} alt='SWITCH e1' className='img-fluid' />
+              <div className='border-2 border-indigo-700 overflow-hidden rounded-lg lg:rounded-xl'>
+                <img src={switch_e1} alt='SWITCH e1' className='hover:scale-105 ease-in duration-300' />
               </div>
-              <div className='bg-indigo-500 mt-1'>
-                <a
-                  className='flex justify-between px-2 py-4 text-white'
-                  href='en/switch-e1.html'
+              <div className='bg-indigo-700 mt-1'>
+                <Link
+                  className='flex justify-between px-2 lg:py-3 py-2 text-white'
+                  to='/e1'
                 >
                   <span>MORE INFORMATION</span>
                   <img src={moreInfo} width='28' alt='MORE INFORMATION' />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className='mb-5' data-aos='fade-in' data-aos-delay='400'>
-              <div className='text-xl lg:text-3xl my-5 font-semibold'>
-                <h3 className='title'>SWITCH EiV 12</h3>
+              <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
+                <h3 >SWITCH EiV 12</h3>
               </div>
-              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300'>
+              <div className='border-2 border-indigo-700 overflow-hidden rounded-xl'>
                 <img
                   src={switch_eiv12}
                   alt='SWITCH EiV 12'
-                  className='img-fluid'
+                  className='hover:scale-105 ease-in duration-300'
                 />
               </div>
-              <div className='bg-indigo-500 mt-1'>
-                <a
-                  className='flex justify-between px-2 py-4 text-white'
-                  href='en/switch-eiv12.html'
+              <div className='bg-indigo-700 mt-1'>
+                <Link
+                  className='flex justify-between px-2 lg:py-3 py-2 text-white'
+                  to='/eiv12'
                 >
                   <span>MORE INFORMATION</span>
                   <img src={moreInfo} width='28' alt='MORE INFORMATION' />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div
-              className='col-md-6 col-lg-4 mb-5 rounded-xl'
+              className='mb-5 rounded-xl'
               data-aos='fade-in'
               data-aos-delay='500'
             >
-              <div className='text-xl lg:text-3xl my-5 font-semibold'>
-                <h3 className='title'>SWITCH EiV 22</h3>
+              <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
+                <h3 >SWITCH EiV 22</h3>
               </div>
-              <div className='border-2 border-indigo-700 scale-100 hover:scale-105 ease-in duration-300 '>
+              <div className='border-2 border-indigo-700 overflow-hidden rounded-xl '>
                 <img
                   src={switch_eiv22}
                   alt='SWITCH EiV 22'
-                  className='img-fluid'
+                  className='hover:scale-105 ease-in duration-300'
                 />
               </div>
-              <div className='bg-indigo-500 mt-1'>
-                <a
-                  className='flex justify-between px-2 py-4 text-white '
-                  href='en/switch-eiv22.html'
+              <div className='bg-indigo-700 mt-1'>
+                <Link
+                  className='flex justify-between px-2 lg:py-3 py-2 text-white '
+                  to='/eiv22'
                 >
                   <span>MORE INFORMATION</span>
                   <img src={moreInfo} width='28' alt='MORE INFORMATION' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
