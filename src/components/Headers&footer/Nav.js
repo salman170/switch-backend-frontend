@@ -11,7 +11,12 @@ const Nav = () => {
       <nav className='bg-white '>
         <div className='flex items-center font-medium justify-between'>
           <div className='z-50 md:p-5 p-3 md:w-auto w-full flex justify-between items-center'>
+          <Link
+              
+              to='/'
+            >
             <img src={Logo} alt='logo' className='md:cursor-pointer md:h-9 h-5 ' />
+            </Link>
             <div className='text-3xl md:hidden' onClick={() => setOpen(!open)}>
               <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
             </div>
@@ -25,7 +30,7 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-            <li>
+            <li >
               <Link
                 to='/about'
                 className='py-4 px-3 inline-block hover:text-indigo-500'
