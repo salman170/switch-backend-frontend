@@ -10,10 +10,8 @@ const Contact = () => {
   }, []);
   return (
     <div>
-     
-
       <section
-        className='intro-newsletter generic-padding flex bg-no-repeat my-4 md:my-8 lg:py-12'
+        className='flex bg-no-repeat my-4 md:my-8 lg:py-12'
         style={{ backgroundImage: `url(${patternBoxSvg})` }}
       >
         <div className='container  max-w-full mx-auto sm:px-2'>

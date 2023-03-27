@@ -28,7 +28,8 @@ const Home = () => {
 
   return (
     <div>
-      <section>
+      
+      <section >
         <Slider />
       </section>
       <section className=' bg-stone-100'>
