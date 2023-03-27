@@ -1,7 +1,7 @@
 import React from 'react';
 
 import homeBanner from '../../../assets/sites/default/files/odin/ODIN-banner-img.jpg';
-import logo from '../../../assets/sites/default/files/odin/e1-logo.svg';
+// import logo from '../../../assets/sites/default/files/odin/e1-logo.svg';
 import homeMobileBanner from '../../../assets/sites/default/files/odin/main-mobile-banner.jpg';
 import subBanner from '../../../assets/sites/default/files/odin/sub-banner1.jpg';
 import largeImage from '../../../assets/sites/default/files/odin/sub-banner-largeImage.jpg';
@@ -23,7 +23,7 @@ const E1 = () => {
           className=' object-cover w-full lg:hidden block m-auto '
         />
       </section>
-      <section>
+      {/* <section>
       <div className='w-full  h-[300px] md:h-[500px] lg:h-[600px]  flex '>
           
         <div
@@ -39,7 +39,7 @@ const E1 = () => {
               <img src={logo} alt="" srcset="" />
             </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className='flex '>
           <div className='w-3/6  h-[300px] md:h-[500px] lg:h-[600px] bg-[#16b895] flex '>
