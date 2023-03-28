@@ -33,58 +33,50 @@ const Metrodecker = () => {
           />
         </div>
       </section>
+   
       <section>
-        <div className='flex my-2'>
-          <div className=' '>
-            <img
-              src={subBanner}
-              alt=''
-              srcset=''
-              className='   '
+        <div className='flex '>
+          <div className='lg:w-3/6  h-[300px] md:h-[500px] lg:h-[600px]  flex my-2 '>
+            <div className='lg:w-1/3 bg-[#16b895]'></div>
+            <div
+              className='hidden lg:block lg:w-2/3 w-full '
+              style={{
+                backgroundImage: `url(${subBanner})`,
+          
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'right',
+              }}
               data-aos='fade-right'
-              data-aos-duration='1500'
-            />
+              data-aos-duration='2000'
+            ></div>
           </div>
-          <div className='object-fill w-full  pl-2'>
-            <img
-              src={metrodecker3rd}
-              alt=''
-              srcset=''
-              className=''
-              data-aos='fade-left'
-              data-aos-duration='1500'
-            />
+          <div
+            className='w-full lg:w-3/6 contrast-125 brightness-90 h-[300px] md:h-[500px] lg:h-[600px] bg-cover   m-2'
+            style={{
+              backgroundImage: `url(${metrodecker3rd})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'left',
+              width: '100%',
+            }}
+            data-aos='fade-left'
+            data-aos-duration='2000'
+          >
+            <div className='flex flex-col items-start justify-end pb-12 pl-1 md:pb-12  md:pl-12 h-[300px] md:h-[500px] lg:h-[600px]'>
+              <div className='text-white text-xl  md:text-3xl lg:text-5xl '>
+              Class-leading double-decker
+              </div>
+              
+            </div>
           </div>
         </div>
       </section>
-      {/* <section class="sub-banner generic-padding-sm" id="main-container" style={{ scrollMarginTop:"100px" }} >
-         <div class="w-full">
-            <div class="flex flex-wrap " style={{ overflow: "hidden" }}>
-               <div class="text-right banner-sm-leftContent ">
-                  <picture>
-                    
-                        <img src={subBanner} class="max-w-full h-auto lg:inline hidden md:hidden xl:inline" data-aos="fade-right" data-aos-duration="1500" alt='' />
-
-                  </picture>
-                 
-                  
-                  
-               </div>
-               <div class="text-right banner-sm-rightContent " 
-                  style={{ backgroundImage: "linear-gradient(360deg, rgba(0,0,0,.9), rgba(0,0,0,0) 40.71%) ",backgroundImage:`url(${metrodecker3rd})` }} data-aos="fade-left" data-aos-duration="1500">
-                  <div class="banner-sm-caption  pt-5">
-                     <div class=" text-xl font ">Class-leading double-decker</div>
-                     
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> */}
+      
       <section>
         <div className='flex flex-col md:flex-row overflow-hidden items-center '>
           <div className='md:w-1/2'>
             <div class='col-span-1  '>
-              <div class=' text-2xl py-10 font-medium md:text-3xl lg:text-5xl  text-left pl-8 md:px-10  lg:mx-14 xl:mx-18 '>
+              <div class=' text-2xl pt-8 md:py-10 font-medium md:text-3xl lg:text-5xl  text-left pl-4 md:pl-8 md:px-10  lg:mx-14 xl:mx-18 '>
                 The lightest bus in its class
               </div>
 

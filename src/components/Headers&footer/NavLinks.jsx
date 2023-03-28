@@ -7,12 +7,12 @@ const NavLinks = () => {
   const [subHeading, setSubHeading] = useState("");
   
   return (
-    <>
+    <div>
       {links.map((link) => (
         <div>
           <div className="px-3 text-left md:cursor-pointer group ">
             <h1
-              className="py-4 flex justify-between items-center md:pr-0 pr-5 group"
+              className="py-4 flex justify-between items-center md:pr-0 pr-2 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -39,7 +39,7 @@ const NavLinks = () => {
                     mt-1 bg-indigo-800 rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-indigo-800 p-5 grid grid-cols-2 gap-4">
+                  <div className="bg-indigo-800 p-5 grid grid-cols-2 gap-2 ">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold text-green-300">
@@ -109,7 +109,7 @@ const NavLinks = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

@@ -4,23 +4,23 @@ import homeBanner from '../../../assets/themes/custom/switchmobility/resources/i
 import homeMobileBanner from '../../../assets/themes/custom/switchmobility/resources/images/eiv7/EiV-mobile-banner.jpg';
 import logoEiv from '../../../assets/sites/default/files/eiv7/eiv-logo-sm.png';
 import productEiv7 from '../../../assets/sites/default/files/eiv7/Eiv-product-offering-image.jpg';
-import eivImage1 from '../../../assets/sites/default/files/eiv7/EiV-img1.jpg';
-import eivImage2 from '../../../assets/sites/default/files/eiv7/EiV-img2.jpg';
-import eivImage3 from '../../../assets/sites/default/files/eiv7/EiV-img3.jpg';
-import eivImage4 from '../../../assets/sites/default/files/eiv7/EiV-img4.jpg';
-import eivImage5 from '../../../assets/sites/default/files/eiv7/EiV-img5.jpg';
+// import eivImage1 from '../../../assets/sites/default/files/eiv7/EiV-img1.jpg';
+// import eivImage2 from '../../../assets/sites/default/files/eiv7/EiV-img2.jpg';
+// import eivImage3 from '../../../assets/sites/default/files/eiv7/EiV-img3.jpg';
+// import eivImage4 from '../../../assets/sites/default/files/eiv7/EiV-img4.jpg';
+// import eivImage5 from '../../../assets/sites/default/files/eiv7/EiV-img5.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ImageSlider from './imageSlider';
+// import ImageSlider from './imageSlider';
 
-const slides = [
-  { url: {eivImage1}, title: 'beach' },
-  { url: {eivImage2}, title: 'boat' },
-  { url: {eivImage3}, title: 'forest' },
-  { url: {eivImage4}, title: 'city' },
-  { url: {eivImage5}, title: 'italy' },
-];
+// const slides = [
+//   { url: {eivImage1}, title: 'beach' },
+//   { url: {eivImage2}, title: 'boat' },
+//   { url: {eivImage3}, title: 'forest' },
+//   { url: {eivImage4}, title: 'city' },
+//   { url: {eivImage5}, title: 'italy' },
+// ];
 
 const Eiv7 = () => {
   useEffect(() => {
@@ -111,10 +111,10 @@ const Eiv7 = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className='w-[500px] h-[280px] mx-auto bg-slate-200'></div>
         <ImageSlider slides={slides} />
-      </section>
+      </section> */}
     </div>
   );
 };
