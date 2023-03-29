@@ -271,7 +271,7 @@ const Nav = () => {
                       {link.sublinks.map((slinks) => (
                         <div>
                           <div>
-                            <h1
+                            {/* <h1
                               onClick={() =>
                                 subHeading !== slinks.Head
                                   ? setSubHeading(slinks.Head)
@@ -290,17 +290,17 @@ const Nav = () => {
                                   }`}
                                 ></ion-icon>
                               </span>
-                            </h1>
+                            </h1> */}
                             <div
-                              className={`${
-                                subHeading === slinks.Head
-                                  ? 'md:hidden'
-                                  : 'hidden'
-                              }`}
+                              // className={`${
+                              //   subHeading === slinks.Head
+                              //     ? 'md:hidden'
+                              //     : 'hidden'
+                              // }`}
                             >
                               {slinks.sublink.map((slink) => (
                                 <li className='py-3 pl-14'>
-                                  <Link to={slink.link} onClick={() => setOpen(!open)}>{slink.name}</Link>
+                                  <Link className='flex' to={slink.link} onClick={() => setOpen(!open)}><div className='h-2 w-2 my-auto mr-2 bg-green-400 rotate-45'></div><div>{slink.name}</div> </Link>
                                 </li>
                               ))}
                             </div>
@@ -311,6 +311,7 @@ const Nav = () => {
                   </div>
                 ))}
               </div>
+              
               <li>
                 <Link
                   to='/tech'

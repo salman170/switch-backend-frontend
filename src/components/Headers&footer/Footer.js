@@ -1,73 +1,42 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Disability_Confident_Committeed_certificate from "../../assets/sites/default/files/Disability_Confident_Committeed_certificate.pdf";
-import disability_confident_logo from "../../assets/sites/default/files/disability-confident-logo.png"
-import Switch_Mobility_Ltd_ISO14001 from "../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14001.pdf";
-import certificate_logo from "../../assets/sites/default/files/certificate-logo.jpg";
-import Switch_Mobility_Ltd_ISO14931_22_23 from "../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14931_22-23.pdf";
-import ISO_certification_logo from "../../assets/sites/default/files/ISO-certification-logo.jpg";
-
-
-
+import Disability_Confident_Committeed_certificate from '../../assets/sites/default/files/Disability_Confident_Committeed_certificate.pdf';
+import disability_confident_logo from '../../assets/sites/default/files/disability-confident-logo.png';
+import Switch_Mobility_Ltd_ISO14001 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14001.pdf';
+import certificate_logo from '../../assets/sites/default/files/certificate-logo.jpg';
+import Switch_Mobility_Ltd_ISO14931_22_23 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14931_22-23.pdf';
+import ISO_certification_logo from '../../assets/sites/default/files/ISO-certification-logo.jpg';
 
 const Footer = () => {
   return (
     <div className='bg-[#505bfe] text-white text-sm md:flex md:justify-between grid grid-cols-1 p-10'>
-      
-        <div className='grid gap-4 text-sm sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-2 '>
-          <div>
-            <p>
-              <span className='font-semibold underline'>Address:</span>
-              <br />
-              RKS Motor - Saboo Towers, <br />
-              6-3-905, Raj Bhavan Rd, Somajiguda,
-              <br />
-              Hyderabad, Telangana 500082
-            </p>
-            
-            <p>
-              <a href='mailto:info@saboomaruti.in' className='hover:text-yellow-300'>info@saboomaruti.in</a>
-              <br />
-              Tel: <a href='tel:+91 98488 98488' className='hover:text-yellow-300'>+91 98488 98488</a>
-              <br />
-            </p>
-          </div>
-          <div >
-            <div className='font-semibold underline'>
-              Vehicles from SWITCH Mobility Ltd:
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>SWITCH e1</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>Metrodecker</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>Metrocity</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>Solo</Link>{' '}
-            </div>
-          </div>
-          <div>
-            <div className='font-semibold underline'>
-              Vehicles from SWITCH Global Ltd:
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>SWITCH EiV 12</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>SWITCH EiV 22</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>SWITCH IeV Series</Link>{' '}
-            </div>
-            <div className='pt-1 hover:text-yellow-300'>
-              <Link>SWITCH EiV 7</Link>{' '}
-            </div>
-          </div>
-          <div> 
+      <div className='grid gap-4 text-sm sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-2 '>
+        <div>
+          <p>
+            <span className='font-semibold underline'>Address:</span>
+            <br />
+            RKS Motor - Saboo Towers, <br />
+            6-3-905, Raj Bhavan Rd, Somajiguda,
+            <br />
+            Hyderabad, Telangana 500082
+          </p>
 
+          <p>
+            <a
+              href='mailto:info@saboomaruti.in'
+              className='hover:text-yellow-300'
+            >
+              info@saboomaruti.in
+            </a>
+            <br />
+            Tel:{' '}
+            <a href='tel:+91 98488 98488' className='hover:text-yellow-300'>
+              +91 98488 98488
+            </a>
+            <br />
+          </p>
+        </div>
+        <div>
           <div className='flex gap-1'>
             <a
               className='mr-2 mb-2 hover:text-blue-300'
@@ -158,46 +127,81 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+        </div>
+        <div>
+          <div className='font-semibold underline'>
+            Vehicles from SWITCH Mobility Ltd:
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>SWITCH e1</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>Metrodecker</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>Metrocity</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>Solo</Link>{' '}
           </div>
         </div>
-      
-      <div>
-      <div className="flex sm:flex-row sm:justify-around">
-                  <div >
-                    <a
-                      href={Disability_Confident_Committeed_certificate}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        src={disability_confident_logo}
-                        alt="Disability_Confident_Committeed_certificate"
-                    /></a>
-                  </div>
-                  <div >
-                  <a
-                    href={Switch_Mobility_Ltd_ISO14001}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={certificate_logo}
-                    alt="log"
-                  /></a>
-                  </div>
-                  <div >
-                  <a
-                    href={Switch_Mobility_Ltd_ISO14931_22_23}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={ISO_certification_logo}
-                      alt="ISO_certification_logo"
-                      className="ml-3"
-                  /></a>
-                  </div>
-                </div>
+        {/* <div>
+          <div className='font-semibold underline'>
+            Vehicles from SWITCH Global Ltd:
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>SWITCH EiV 12</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>SWITCH EiV 22</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>SWITCH IeV Series</Link>{' '}
+          </div>
+          <div className='pt-1 hover:text-yellow-300'>
+            <Link>SWITCH EiV 7</Link>{' '}
+          </div>
+        </div> */}
       </div>
+
+      {/* <div>
+        <div className='flex sm:flex-row sm:justify-around'>
+          <div>
+            <a
+              href={Disability_Confident_Committeed_certificate}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src={disability_confident_logo}
+                alt='Disability_Confident_Committeed_certificate'
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href={Switch_Mobility_Ltd_ISO14001}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={certificate_logo} alt='log' />
+            </a>
+          </div>
+          <div>
+            <a
+              href={Switch_Mobility_Ltd_ISO14931_22_23}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src={ISO_certification_logo}
+                alt='ISO_certification_logo'
+                className='ml-3'
+              />
+            </a>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 };
