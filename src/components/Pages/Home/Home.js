@@ -20,7 +20,7 @@ import 'aos/dist/aos.css';
 
 
 const Home = () => {
-  const width = window.innerWidth;
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -306,16 +306,17 @@ const Home = () => {
         </div>
       </section> */}
       <section className='mb-1'>
-        {width > 425 ? (
-          <img src={switchInfographic} className='' alt='Switch infographic' />
-        ) : (
+       
+          <img src={switchInfographic} className='hidden md:block' alt='Switch infographic' />
+   
           <img
             src={switchInfographicupdated}
-            className='img-fluid d-sm-none d-block w-100'
+            className='block w-full md:hidden'
             alt='switchInfographicupdated'
           />
-        )}
+    
       </section>
+      
 
       {/* <section className='generic-padding bg-color-blue-grid text-center text-white d-flex align-items-center'>
         <div className='container-fluid'>
