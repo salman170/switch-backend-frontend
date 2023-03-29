@@ -76,16 +76,16 @@ const Nav = () => {
                       </h1>
                       {link.submenu && (
                         <div>
-                          <div className='absolute top-12 hidden group-hover:md:block hover:md:block'>
+                          <div className='absolute top-12 hidden  group-hover:md:block hover:md:block'>
                             <div className='py-3'>
-                              <div  className='w-4 h-4 left-3 absolute mt-1 bg-indigo-800 rotate-45'></div>
+                              <div  className='w-4 h-4 mx-16 absolute mt-1 bg-indigo-800 rotate-45'></div>
                             </div>
-                            <div className='bg-indigo-800 p-5 grid grid-cols-2 gap-2 '>
+                            <div className='bg-indigo-800 px-5 py-3 '>
                               {link.sublinks.map((mysublinks) => (
                                 <div>
-                                  <h1 className='text-lg font-semibold text-green-300'>
+                                  {/* <h1 className='text-lg font-semibold text-green-300'>
                                     {mysublinks.Head}
-                                  </h1>
+                                  </h1> */}
                                   {mysublinks.sublink.map((slink) => (
                                     <li className='text-sm text-white my-2.5'>
                                       <Link
@@ -237,7 +237,7 @@ const Nav = () => {
                     mt-1 bg-indigo-800 rotate-45'
                               ></div>
                             </div>
-                            <div className='bg-indigo-800 p-5 grid grid-cols-2 gap-2 ' onClick={() => setOpen(!open)}>
+                            <div className='bg-indigo-800 p-5  ' onClick={() => setOpen(!open)}>
                               {link.sublinks.map((mysublinks) => (
                                 <div >
                                   <h1 className='text-lg font-semibold text-green-300'>
