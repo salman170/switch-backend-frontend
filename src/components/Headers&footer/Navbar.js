@@ -62,7 +62,7 @@ export default function Navbar() {
             >
               SWITCH e1
             </Link>
-            <Link
+            {/* <Link
               to='/eiv12'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
@@ -73,7 +73,7 @@ export default function Navbar() {
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
               SWITCH EiV 22
-            </Link>
+            </Link> */}
             <Link
               to='/metrodecker'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
@@ -86,7 +86,7 @@ export default function Navbar() {
             >
               Metrocity
             </Link>
-            <Link
+            {/* <Link
               to='/iev'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
@@ -97,7 +97,7 @@ export default function Navbar() {
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'
             >
               SWITCH EiV 7
-            </Link>
+            </Link> */}
             <Link
               to='/solo'
               className='text-md font-semibold uppercase leading-6  hover:text-indigo-500'

@@ -4,22 +4,20 @@ import pattern from '../../assets/themes/custom/switchmobility/resources/images/
 import expoImage from '../../assets/sites/default/files/2023-02/auto-expo-lead-news-banner_2.jpg';
 
 //images imports
-import FormulaERace from "../../assets/sites/default/files/2023-02/Formula-E1-img1.jpg"
-import SwitchEiv22 from "../../assets/sites/default/files/2023-02/flag-off-img3.jpg"
-import jsw from "../../assets/sites/default/files/2022-11/jsw-image-for-news.jpg"
-import Birmingham from "../../assets/sites/default/files/2022-11/Switch-BusExpo-Birmingham-news_1.jpg"
-import Mahesh from "../../assets/sites/default/files/2022-11/Mahesh.jpg"
-import reBirth from "../../assets/sites/default/files/2022-08/EIV-22-for-news_1.jpg"
-import chalo from "../../assets/sites/default/files/2022-08/chalo.png"
-import ev12 from "../../assets/sites/default/files/2022-06/EV12.jpg"
-import e1 from "../../assets/sites/default/files/2022-06/e1.jpg"
-import sara from "../../assets/sites/default/files/2022-05/sara-img-news.jpg"
-import thumbnail from "../../assets/sites/default/files/2022-05/THUMBNAILNEWS_0.png"
-import metrocity from "../../assets/sites/default/files/2022-04/metrocity-news.jpg"
-import swiMo from "../../assets/sites/default/files/2022-04/swi_mo.jpg"
-import groundBreaking from "../../assets/sites/default/files/2022-04/groundbreaking.jpg"
-
-
+import FormulaERace from '../../assets/sites/default/files/2023-02/Formula-E1-img1.jpg';
+import SwitchEiv22 from '../../assets/sites/default/files/2023-02/flag-off-img3.jpg';
+import jsw from '../../assets/sites/default/files/2022-11/jsw-image-for-news.jpg';
+import Birmingham from '../../assets/sites/default/files/2022-11/Switch-BusExpo-Birmingham-news_1.jpg';
+import Mahesh from '../../assets/sites/default/files/2022-11/Mahesh.jpg';
+import reBirth from '../../assets/sites/default/files/2022-08/EIV-22-for-news_1.jpg';
+import chalo from '../../assets/sites/default/files/2022-08/chalo.png';
+import ev12 from '../../assets/sites/default/files/2022-06/EV12.jpg';
+import e1 from '../../assets/sites/default/files/2022-06/e1.jpg';
+import sara from '../../assets/sites/default/files/2022-05/sara-img-news.jpg';
+import thumbnail from '../../assets/sites/default/files/2022-05/THUMBNAILNEWS_0.png';
+import metrocity from '../../assets/sites/default/files/2022-04/metrocity-news.jpg';
+import swiMo from '../../assets/sites/default/files/2022-04/swi_mo.jpg';
+import groundBreaking from '../../assets/sites/default/files/2022-04/groundbreaking.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -544,384 +542,460 @@ const News = () => {
       <section className='font-mono'>
         <div></div>
         <div className='flex flex-wrap'>
-        <div className="flex flex-wrap">
-              <div className="w-1/4 gap-2" data-aos="fade-in" data-aos-delay="100">
-                <div className="row align-items-end">
-                  <div className="xl:w-[400px] lg:w-[300px] md:w-[200px] w-full">
-                    <img
-                      src={FormulaERace}
-                      alt="Formula E Race"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2023-02-15T10:32:29Z" className="datetime"
-                        >15.02.23</time                      >
-                    </div>
-                    <h4 className="title mb-1">Formula E Race</h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/formula-e-race76e3.html?nid=3469"
-                      >READ MORE</a                    >
-                  </div>
+          <div className='flex flex-wrap'>
+            <div
+              className='w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='100'
+            >
+              <div className='row align-items-end'>
+                <div className='xl:w-[400px] lg:w-[300px] md:w-[200px] w-full'>
+                  <img
+                    src={FormulaERace}
+                    alt='Formula E Race'
+                    className='img-fluid'
+                  />
                 </div>
-              </div>
-
-              <div className="md:w-1/2 w-full lg:w-1/4 gap-2" data-aos="fade-in" data-aos-delay="200">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={SwitchEiv22}
-                      alt="Switch Mobility Ltd. delivers first set of SWITCH EiV 22, India’s first electric double decker buses to BEST"
-                      className="img-fluid"
-                    />
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2023-02-15T10:32:29Z' className='datetime'>
+                      15.02.23
+                    </time>
                   </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2023-02-13T10:30:35Z" className="datetime"
-                        >13.02.23</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch Mobility Ltd. delivers first set of SWITCH EiV 22,
-                      India’s first electric double decker buses to BEST
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-ltd-delivers-first-set-switch-eiv-22-indias-first-electric-double-decker-buses0222.html?nid=3468"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="md:w-1/2 w-full lg:w-1/4 gap-2" data-aos="fade-in" data-aos-delay="300">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={jsw}
-                      alt="SWITCH Mobility Partners with JSW to Introduce Electric Buses for Employee Transportation"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-11-28T09:27:54Z" className="datetime"
-                        >28.11.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      SWITCH Mobility Partners with JSW to Introduce Electric
-                      Buses for Employee Transportation
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-partners-jsw-introduce-electric-buses-employee-transportation2b4f.html?nid=2793"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="md:w-1/2 w-full lg:w-1/4 gap-2" data-aos="fade-in" data-aos-delay="400">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={Birmingham}
-                      alt="Showcasing a greener future at Euro Bus Expo"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-11-10T03:36:35Z" className="datetime"
-                        >10.11.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Showcasing a greener future at Euro Bus Expo
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/showcasing-greener-future-euro-bus-expofae1.html?nid=2626"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="md:w-1/2 w-full lg:w-1/4 gap-2" data-aos="fade-in" data-aos-delay="500">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={Mahesh}
-                      alt="SWITCH announces Senior Level Organisational Changes Mahesh Babu elevated as CEO"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-11-04T14:12:31Z" className="datetime"
-                        >04.11.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      SWITCH announces Senior Level Organisational Changes
-                      Mahesh Babu elevated as CEO
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-announces-senior-level-organisational-changes-mahesh-babu-elevated-ceo8e63.html?nid=2552"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="md:w-1/2 w-full lg:w-1/4 gap-2" data-aos="fade-in" data-aos-delay="600">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={reBirth}
-                      alt="Re-birth of an Icon: Switch Mobility Ltd. unveils India’s first and unique electric double-decker bus - Switch EiV 22"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-08-18T14:41:43Z" className="datetime"
-                        >18.08.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Re-birth of an Icon: Switch Mobility Ltd. unveils India’s
-                      first and unique electric double-decker bus - Switch EiV
-                      22
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/re-birth-icon-switch-mobility-ltd-unveils-indias-first-and-unique-electric-double-decker-bus4025.html?nid=1447"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-1/4 gap-2" data-aos="fade-in" data-aos-delay="700">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={chalo}
-                      alt="Switch Mobility and Chalo join hands to deploy 5,000 electric buses across India"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-08-11T04:34:22Z" className="datetime"
-                        >11.08.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch Mobility and Chalo join hands to deploy 5,000
-                      electric buses across India
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-and-chalo-join-hands-deploy-5000-electric-buses-across-india2272.html?nid=1362"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-1/4 gap-2" data-aos="fade-in" data-aos-delay="800">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={ev12}
-                      alt="Switch India launches next generation electric bus platform - SWITCH EiV 12"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-06-14T14:56:56Z" className="datetime"
-                        >14.06.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch India launches next generation electric bus
-                      platform - SWITCH EiV 12
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-india-launches-next-generation-electric-bus-platform-switch-eiv-12e16e.html?nid=754"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-1/4 gap-2" data-aos="fade-in" data-aos-delay="900">
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={e1}
-                      alt="Switch Mobility Ltd. launches all new, ‘SWITCH e1’ 12m bus."
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-06-07T15:46:38Z" className="datetime"
-                        >07.06.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch Mobility Ltd. launches all new, ‘SWITCH e1’
-                      12m bus.
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-ltd-launches-all-new-switch-e1-12m-busbb04.html?nid=642"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-sm-4 mb-5"
-                data-aos="fade-in"
-                data-aos-delay="1000"
-              >
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={sara}
-                      alt="Sara Borjas appointed new Head of R&amp;D of Switch Mobility Iberia"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-05-12T17:05:29Z" className="datetime"
-                        >12.05.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Sara Borjas appointed new Head of R&amp;D of Switch
-                      Mobility Iberia
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/sara-borjas-appointed-new-head-rd-switch-mobility-iberia9039.html?nid=622"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-sm-4 mb-5"
-                data-aos="fade-in"
-                data-aos-delay="1100"
-              >
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={thumbnail}
-                      alt="Switch Mobility: One Year On"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-05-10T03:36:51Z" className="datetime"
-                        >10.05.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">Switch Mobility: One Year On</h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-one-year493b.html?nid=616"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-sm-4 mb-5"
-                data-aos="fade-in"
-                data-aos-delay="1200"
-              >
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={metrocity}
-                      alt="Switch Mobility Ltd. to showcase current and future products at BUS2BUS, Berlin"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-04-20T14:23:06Z" className="datetime"
-                        >20.04.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch Mobility Ltd. to showcase current and future
-                      products at BUS2BUS, Berlin
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-ltd-showcase-current-and-future-products-bus2bus-berlin6c97.html?nid=584"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-sm-4 mb-5"
-                data-aos="fade-in"
-                data-aos-delay="1300"
-              >
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={swiMo}
-                      alt="Switch Mobility certified carbon neutral"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-03-21T04:36:51Z" className="datetime"
-                        >21.03.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Switch Mobility certified carbon neutral
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/switch-mobility-certified-carbon-neutral6d58.html?nid=559"
-                      >READ MORE</a                    >
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-sm-4 mb-5"
-                data-aos="fade-in"
-                data-aos-delay="1400"
-              >
-                <div className="row align-items-end">
-                  <div className="w-[500px]">
-                    <img
-                      src={groundBreaking}
-                      alt="Groundbreaking Ceremony in Spain marks milestone for Switch Mobility"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="pub-date">
-                      <time datetime="2022-03-18T12:00:00Z" className="datetime"
-                        >18.03.22</time                      >
-                    </div>
-                    <h4 className="title mb-1">
-                      Groundbreaking Ceremony in Spain marks milestone for
-                      Switch Mobility
-                    </h4>
-                    <a
-                      className="link-blue sw-news"
-                      href="news/groundbreaking-ceremony-spain-marks-milestone-switch-mobilityf83d.html?nid=553"
-                      >READ MORE</a                    >
-                  </div>
+                  <h4 className='title mb-1'>Formula E Race</h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/formula-e-race76e3.html?nid=3469'
+                  >
+                    READ MORE
+                  </a>
                 </div>
               </div>
             </div>
+
+            <div
+              className='md:w-1/2 w-full lg:w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='200'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={SwitchEiv22}
+                    alt='Switch Mobility Ltd. delivers first set of SWITCH EiV 22, India’s first electric double decker buses to BEST'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2023-02-13T10:30:35Z' className='datetime'>
+                      13.02.23
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch Mobility Ltd. delivers first set of SWITCH EiV 22,
+                    India’s first electric double decker buses to BEST
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-ltd-delivers-first-set-switch-eiv-22-indias-first-electric-double-decker-buses0222.html?nid=3468'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='md:w-1/2 w-full lg:w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='300'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={jsw}
+                    alt='SWITCH Mobility Partners with JSW to Introduce Electric Buses for Employee Transportation'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-11-28T09:27:54Z' className='datetime'>
+                      28.11.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    SWITCH Mobility Partners with JSW to Introduce Electric
+                    Buses for Employee Transportation
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-partners-jsw-introduce-electric-buses-employee-transportation2b4f.html?nid=2793'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='md:w-1/2 w-full lg:w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='400'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={Birmingham}
+                    alt='Showcasing a greener future at Euro Bus Expo'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-11-10T03:36:35Z' className='datetime'>
+                      10.11.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Showcasing a greener future at Euro Bus Expo
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/showcasing-greener-future-euro-bus-expofae1.html?nid=2626'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='md:w-1/2 w-full lg:w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='500'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={Mahesh}
+                    alt='SWITCH announces Senior Level Organisational Changes Mahesh Babu elevated as CEO'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-11-04T14:12:31Z' className='datetime'>
+                      04.11.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    SWITCH announces Senior Level Organisational Changes Mahesh
+                    Babu elevated as CEO
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-announces-senior-level-organisational-changes-mahesh-babu-elevated-ceo8e63.html?nid=2552'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='md:w-1/2 w-full lg:w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='600'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={reBirth}
+                    alt='Re-birth of an Icon: Switch Mobility Ltd. unveils India’s first and unique electric double-decker bus - Switch EiV 22'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-08-18T14:41:43Z' className='datetime'>
+                      18.08.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Re-birth of an Icon: Switch Mobility Ltd. unveils India’s
+                    first and unique electric double-decker bus - Switch EiV 22
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/re-birth-icon-switch-mobility-ltd-unveils-indias-first-and-unique-electric-double-decker-bus4025.html?nid=1447'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='700'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={chalo}
+                    alt='Switch Mobility and Chalo join hands to deploy 5,000 electric buses across India'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-08-11T04:34:22Z' className='datetime'>
+                      11.08.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch Mobility and Chalo join hands to deploy 5,000
+                    electric buses across India
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-and-chalo-join-hands-deploy-5000-electric-buses-across-india2272.html?nid=1362'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='800'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={ev12}
+                    alt='Switch India launches next generation electric bus platform - SWITCH EiV 12'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-06-14T14:56:56Z' className='datetime'>
+                      14.06.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch India launches next generation electric bus platform
+                    - SWITCH EiV 12
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-india-launches-next-generation-electric-bus-platform-switch-eiv-12e16e.html?nid=754'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='w-1/4 gap-2'
+              data-aos='fade-in'
+              data-aos-delay='900'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={e1}
+                    alt='Switch Mobility Ltd. launches all new, ‘SWITCH e1’ 12m bus.'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-06-07T15:46:38Z' className='datetime'>
+                      07.06.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch Mobility Ltd. launches all new, ‘SWITCH e1’ 12m bus.
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-ltd-launches-all-new-switch-e1-12m-busbb04.html?nid=642'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='col-sm-4 mb-5'
+              data-aos='fade-in'
+              data-aos-delay='1000'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={sara}
+                    alt='Sara Borjas appointed new Head of R&amp;D of Switch Mobility Iberia'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-05-12T17:05:29Z' className='datetime'>
+                      12.05.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Sara Borjas appointed new Head of R&amp;D of Switch Mobility
+                    Iberia
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/sara-borjas-appointed-new-head-rd-switch-mobility-iberia9039.html?nid=622'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='col-sm-4 mb-5'
+              data-aos='fade-in'
+              data-aos-delay='1100'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={thumbnail}
+                    alt='Switch Mobility: One Year On'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-05-10T03:36:51Z' className='datetime'>
+                      10.05.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>Switch Mobility: One Year On</h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-one-year493b.html?nid=616'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='col-sm-4 mb-5'
+              data-aos='fade-in'
+              data-aos-delay='1200'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={metrocity}
+                    alt='Switch Mobility Ltd. to showcase current and future products at BUS2BUS, Berlin'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-04-20T14:23:06Z' className='datetime'>
+                      20.04.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch Mobility Ltd. to showcase current and future products
+                    at BUS2BUS, Berlin
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-ltd-showcase-current-and-future-products-bus2bus-berlin6c97.html?nid=584'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='col-sm-4 mb-5'
+              data-aos='fade-in'
+              data-aos-delay='1300'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={swiMo}
+                    alt='Switch Mobility certified carbon neutral'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-03-21T04:36:51Z' className='datetime'>
+                      21.03.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Switch Mobility certified carbon neutral
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/switch-mobility-certified-carbon-neutral6d58.html?nid=559'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className='col-sm-4 mb-5'
+              data-aos='fade-in'
+              data-aos-delay='1400'
+            >
+              <div className='row align-items-end'>
+                <div className='w-[500px]'>
+                  <img
+                    src={groundBreaking}
+                    alt='Groundbreaking Ceremony in Spain marks milestone for Switch Mobility'
+                    className='img-fluid'
+                  />
+                </div>
+                <div className='col-lg-6'>
+                  <div className='pub-date'>
+                    <time datetime='2022-03-18T12:00:00Z' className='datetime'>
+                      18.03.22
+                    </time>
+                  </div>
+                  <h4 className='title mb-1'>
+                    Groundbreaking Ceremony in Spain marks milestone for Switch
+                    Mobility
+                  </h4>
+                  <a
+                    className='link-blue sw-news'
+                    href='news/groundbreaking-ceremony-spain-marks-milestone-switch-mobilityf83d.html?nid=553'
+                  >
+                    READ MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -974,7 +1048,7 @@ const News = () => {
                         </label>
                         <input
                           type='email'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           name='newsletteryouremail'
                           id='emailAddress'
                           placeholder='Enter your email address here'
@@ -987,7 +1061,7 @@ const News = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='fullName'
                           maxlength='150'
                           name='newsletteryourname'
@@ -1001,7 +1075,7 @@ const News = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='jobtitle'
                           maxlength='150'
                           name='jobtitle'
@@ -1015,7 +1089,7 @@ const News = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='company'
                           maxlength='150'
                           name='newslettercompanyname'
@@ -1032,7 +1106,7 @@ const News = () => {
                           Interest
                         </label>
                         <select
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='interest'
                           name='newsletterinterest'
                         >

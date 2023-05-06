@@ -65,22 +65,22 @@ const router = createBrowserRouter([
         path: '/e1',
         element: <E1 />,
       },
-      {
-        path: '/eiv7',
-        element: <Eiv7 />,
-      },
-      {
-        path: '/eiv12',
-        element: <Eiv12 />,
-      },
-      {
-        path: '/eiv22',
-        element: <Eiv22 />,
-      },
-      {
-        path: '/iev',
-        element: <Iev />,
-      },
+      // {
+      //   path: '/eiv7',
+      //   element: <Eiv7 />,
+      // },
+      // {
+      //   path: '/eiv12',
+      //   element: <Eiv12 />,
+      // },
+      // {
+      //   path: '/eiv22',
+      //   element: <Eiv22 />,
+      // },
+      // {
+      //   path: '/iev',
+      //   element: <Iev />,
+      // },
       {
         path: '/metrocity',
         element: <Metrocity />,

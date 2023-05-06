@@ -129,12 +129,12 @@ const Home = () => {
               <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
                 <h3 >SWITCH e1</h3>
               </div>
-              <div className='border-2 border-indigo-700 overflow-hidden rounded-lg lg:rounded-xl'>
+              <div className=' overflow-hidden  '>
                 <img src={switch_e1} alt='SWITCH e1' className='hover:scale-105 ease-in duration-300' />
               </div>
-              <div className='bg-indigo-700 mt-1'>
+              <div className='bg-indigo-700 '>
                 <Link
-                  className='flex justify-between px-2 lg:py-3 py-2 text-white'
+                  className='flex justify-between px-2 lg:pb-3 py-2 text-white'
                   to='/e1'
                 >
                   <span>MORE INFORMATION</span>
@@ -147,16 +147,16 @@ const Home = () => {
               <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
                 <h3 >SWITCH EiV 12</h3>
               </div>
-              <div className='border-2 border-indigo-700 overflow-hidden rounded-xl'>
+              <div className=' overflow-hidden '>
                 <img
                   src={switch_eiv12}
                   alt='SWITCH EiV 12'
                   className='hover:scale-105 ease-in duration-300'
                 />
               </div>
-              <div className='bg-indigo-700 mt-1'>
+              <div className='bg-indigo-700 '>
                 <Link
-                  className='flex justify-between px-2 lg:py-3 py-2 text-white'
+                  className='flex justify-between px-2 lg:pb-3 py-2 text-white'
                   to='/eiv12'
                 >
                   <span>MORE INFORMATION</span>
@@ -166,21 +166,21 @@ const Home = () => {
             </div>
 
             <div
-              className='mb-5 rounded-xl'
+              className='mb-5 '
               data-aos='fade-in'
               data-aos-delay='500'
             >
               <div className='text-xl lg:text-3xl my-5 font-semibold text-center'>
                 <h3 >SWITCH EiV 22</h3>
               </div>
-              <div className='border-2 border-indigo-700 overflow-hidden rounded-xl '>
+              <div className=' overflow-hidden  '>
                 <img
                   src={switch_eiv22}
                   alt='SWITCH EiV 22'
                   className='hover:scale-105 ease-in duration-300'
                 />
               </div>
-              <div className='bg-indigo-700 mt-1'>
+              <div className='bg-indigo-700 '>
                 <Link
                   className='flex justify-between px-2 lg:py-3 py-2 text-white '
                   to='/eiv22'
@@ -582,7 +582,7 @@ const Home = () => {
                         </label>
                         <input
                           type='email'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           name='newsletteryouremail'
                           id='emailAddress'
                           placeholder='Enter your email address here'
@@ -595,7 +595,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='fullName'
                           maxlength='150'
                           name='newsletteryourname'
@@ -609,7 +609,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='jobtitle'
                           maxlength='150'
                           name='jobtitle'
@@ -623,7 +623,7 @@ const Home = () => {
                         </label>
                         <input
                           type='text'
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='company'
                           maxlength='150'
                           name='newslettercompanyname'
@@ -640,7 +640,7 @@ const Home = () => {
                           Interest
                         </label>
                         <select
-                          className='block w-full px-2 py-2 mb-1 text-lg leading-relaxed  border-2 hover:shadow-lg hover:shadow-indigo-500 border-indigo-700 '
+                          className='block w-full px-2 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 py-2 mb-1 text-lg leading-relaxed border-2  border-indigo-700  '
                           id='interest'
                           name='newsletterinterest'
                         >

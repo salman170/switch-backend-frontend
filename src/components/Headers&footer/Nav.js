@@ -25,7 +25,6 @@ const Nav = () => {
               <div
                 className='text-3xl md:hidden p-3 md:p-5'
                 onClick={() => setOpen(!open)}
-                
               >
                 <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
               </div>
@@ -42,7 +41,7 @@ const Nav = () => {
               <li>
                 <Link
                   to='/about'
-                  className='py-4 px-3 inline-block hover:text-indigo-500'
+                  className='py-4 px-3 inline-block whitespace-nowrap hover:text-indigo-500'
                 >
                   About Us
                 </Link>
@@ -78,7 +77,7 @@ const Nav = () => {
                         <div>
                           <div className='absolute top-12 hidden  group-hover:md:block hover:md:block'>
                             <div className='py-3'>
-                              <div  className='w-4 h-4 mx-16 absolute mt-1 bg-indigo-800 rotate-45'></div>
+                              <div className='w-4 h-4 mx-16 absolute mt-1 bg-indigo-800 rotate-45'></div>
                             </div>
                             <div className='bg-indigo-800 px-5 py-3 '>
                               {link.sublinks.map((mysublinks) => (
@@ -104,7 +103,11 @@ const Nav = () => {
                       )}
                     </div>
                     {/* Mobile menus */}
-                    <div className={`${heading === link.name ? 'md:hidden' : 'hidden'}`}>
+                    <div
+                      className={`${
+                        heading === link.name ? 'md:hidden' : 'hidden'
+                      }`}
+                    >
                       {/* sublinks */}
                       {link.sublinks.map((slinks) => (
                         <div>
@@ -168,7 +171,7 @@ const Nav = () => {
               <li>
                 <Link
                   to='/contact'
-                  className='py-4 px-3 inline-block hover:text-indigo-500'
+                  className='py-4 px-3 inline-block whitespace-nowrap hover:text-indigo-500'
                 >
                   Contact Us
                 </Link>
@@ -194,7 +197,7 @@ const Nav = () => {
               <li>
                 <Link
                   to='/about'
-                  className='py-5 px-3 inline-block hover:text-indigo-500'
+                  className='py-5 px-3 inline-block whitespace-nowrap hover:text-indigo-500'
                   onClick={() => setOpen(!open)}
                 >
                   About Us
@@ -203,7 +206,7 @@ const Nav = () => {
               {/* <NavLinks  /> */}
               <div>
                 {links.map((link) => (
-                  <div >
+                  <div>
                     <div className='px-3 text-left md:cursor-pointer group '>
                       <h1
                         className='py-4 flex justify-between items-center md:pr-0 pr-2 group'
@@ -229,7 +232,7 @@ const Nav = () => {
                         </span>
                       </h1>
                       {link.submenu && (
-                        <div >
+                        <div>
                           <div className='absolute top-12 hidden group-hover:md:block hover:md:block'>
                             <div className='py-3'>
                               <div
@@ -237,18 +240,20 @@ const Nav = () => {
                     mt-1 bg-indigo-800 rotate-45'
                               ></div>
                             </div>
-                            <div className='bg-indigo-800 p-5  ' onClick={() => setOpen(!open)}>
+                            <div
+                              className='bg-indigo-800 p-5  '
+                              onClick={() => setOpen(!open)}
+                            >
                               {link.sublinks.map((mysublinks) => (
-                                <div >
+                                <div>
                                   <h1 className='text-lg font-semibold text-green-300'>
                                     {mysublinks.Head}
                                   </h1>
                                   {mysublinks.sublink.map((slink) => (
-                                    <li className='text-sm text-white my-2.5' >
+                                    <li className='text-sm text-white my-2.5'>
                                       <Link
                                         to={slink.link}
                                         className='hover:text-primary'
-                                        
                                       >
                                         {slink.name}
                                       </Link>
@@ -292,15 +297,22 @@ const Nav = () => {
                               </span>
                             </h1> */}
                             <div
-                              // className={`${
-                              //   subHeading === slinks.Head
-                              //     ? 'md:hidden'
-                              //     : 'hidden'
-                              // }`}
+                            // className={`${
+                            //   subHeading === slinks.Head
+                            //     ? 'md:hidden'
+                            //     : 'hidden'
+                            // }`}
                             >
                               {slinks.sublink.map((slink) => (
                                 <li className='py-3 pl-14'>
-                                  <Link className='flex' to={slink.link} onClick={() => setOpen(!open)}><div className='h-2 w-2 my-auto mr-2 bg-green-400 rotate-45'></div><div>{slink.name}</div> </Link>
+                                  <Link
+                                    className='flex'
+                                    to={slink.link}
+                                    onClick={() => setOpen(!open)}
+                                  >
+                                    <div className='h-2 w-2 my-auto mr-2 bg-green-400 rotate-45'></div>
+                                    <div>{slink.name}</div>{' '}
+                                  </Link>
                                 </li>
                               ))}
                             </div>
@@ -311,7 +323,7 @@ const Nav = () => {
                   </div>
                 ))}
               </div>
-              
+
               <li>
                 <Link
                   to='/tech'
