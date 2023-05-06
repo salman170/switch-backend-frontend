@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Disability_Confident_Committeed_certificate from '../../assets/sites/default/files/Disability_Confident_Committeed_certificate.pdf';
-import disability_confident_logo from '../../assets/sites/default/files/disability-confident-logo.png';
-import Switch_Mobility_Ltd_ISO14001 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14001.pdf';
-import certificate_logo from '../../assets/sites/default/files/certificate-logo.jpg';
-import Switch_Mobility_Ltd_ISO14931_22_23 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14931_22-23.pdf';
-import ISO_certification_logo from '../../assets/sites/default/files/ISO-certification-logo.jpg';
+// import Disability_Confident_Committeed_certificate from '../../assets/sites/default/files/Disability_Confident_Committeed_certificate.pdf';
+// import disability_confident_logo from '../../assets/sites/default/files/disability-confident-logo.png';
+// import Switch_Mobility_Ltd_ISO14001 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14001.pdf';
+// import certificate_logo from '../../assets/sites/default/files/certificate-logo.jpg';
+// import Switch_Mobility_Ltd_ISO14931_22_23 from '../../assets/sites/default/files/Switch_Mobility_Ltd_ISO14931_22-23.pdf';
+// import ISO_certification_logo from '../../assets/sites/default/files/ISO-certification-logo.jpg';
 
 const Footer = () => {
   return (
